@@ -96,7 +96,7 @@ function astra_primary_header_breakpoint_style( $dynamic_css, $dynamic_css_filte
 	}
 
 	$padding_below_breakpoint = array(
-		'#masthead .ast-mobile-header-wrap .ast-above-header-bar, #masthead .ast-mobile-header-wrap .ast-primary-header-bar, #masthead .ast-mobile-header-wrap .ast-below-header-bar' => array(
+		'#masthead .ast-mobile-header-wrap .ast-primary-header-bar, #masthead .ast-mobile-header-wrap .ast-below-header-bar' => array(
 			'padding-left'  => '20px',
 			'padding-right' => '20px',
 		),

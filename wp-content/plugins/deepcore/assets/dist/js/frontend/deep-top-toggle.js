@@ -1,0 +1,1 @@
+!function(o){o(".w_toggle").on("click",function(e){e.preventDefault(),o(".w_toparea").slideToggle(400,function(){o(".w_toggle").hasClass("open")?o(".w_toggle").removeClass("open"):o(".w_toggle").addClass("open")})})}(jQuery);

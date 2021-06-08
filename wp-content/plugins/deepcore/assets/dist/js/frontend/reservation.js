@@ -1,0 +1,1 @@
+!function(e){function n(e,n){n(".wn-niceselect:not(.infoselect)").niceSelect(),n(".open-table-date").length&&n(".open-table-date").datepicker({format:"yyyy/dd/MM"})}e(window).on("elementor/frontend/init",function(){elementorFrontend.hooks.addAction("frontend/element_ready/reservation.default",n)})}(jQuery);

@@ -121,6 +121,9 @@ function astra_off_canvas_row_setting( $dynamic_css, $dynamic_css_filtered = '' 
  */
 function astra_off_canvas_static_css() {
 	$off_canvas_css = '
+	.ast-off-canvas-active body.ast-main-header-nav-open {
+		overflow: hidden;
+	}
 	.ast-mobile-popup-drawer .ast-mobile-popup-overlay {
 		background-color: rgba(0, 0, 0, 0.4);
 		position: fixed;
@@ -455,10 +458,8 @@ function astra_dropdown_type_static_css() {
 	#ast-desktop-header .ast-desktop-header-content,
 	.ast-mobile-header-content .ast-search-icon,
 	.ast-desktop-header-content .ast-search-icon,
-	.ast-off-canvas-active .ast-main-header-nav-open.ast-popup-nav-open .ast-mobile-header-wrap .ast-mobile-header-content,
 	.ast-mobile-header-wrap .ast-mobile-header-content,
 	.ast-main-header-nav-open.ast-popup-nav-open .ast-mobile-header-wrap .ast-mobile-header-content,
-	.ast-off-canvas-active .ast-main-header-nav-open.ast-popup-nav-open .ast-desktop-header-content,
 	.ast-main-header-nav-open.ast-popup-nav-open .ast-desktop-header-content {
 	  display: none;
 	}

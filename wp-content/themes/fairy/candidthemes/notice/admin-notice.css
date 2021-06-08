@@ -1,0 +1,38 @@
+.fairy-pro-admin-notice {
+	position: relative;
+}
+
+.fairy-pro-admin-notice p {
+	font-size: 16px;
+}
+
+.fairy-pro-admin-notice code {
+	display: inline-block;
+}
+
+.fairy-pro-admin-notice .links {
+	margin: 12px 0;
+}
+
+.fairy-pro-admin-notice .links a {
+	height: auto;
+	padding: 3px 15px;
+	margin-left: 12px;
+	text-transform: uppercase;
+}
+
+.fairy-pro-admin-notice .links a .dashicons {
+	line-height: 1.2;
+}
+
+.fairy-pro-admin-notice .links a.button-primary {
+	margin-left: 0;
+}
+
+.fairy-pro-admin-notice  .fairy-pro-admin-notice-dismiss {
+	text-decoration: none;
+}
+.fairy-pro-admin-notice code, 
+.fairy-pro-admin-notice kbd{
+	font-weight: bold;
+}

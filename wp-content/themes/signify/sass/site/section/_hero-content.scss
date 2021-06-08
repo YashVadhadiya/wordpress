@@ -1,0 +1,65 @@
+/**
+ * 7.3.10 - Hero Content
+ */
+
+#hero-section {
+    border: none;
+    text-align: center;
+}
+
+#hero-section .wrapper {
+    padding: 42px 0;
+}
+
+#hero-section .hentry {
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+.hero-content-wrapper .post-thumbnail-background {
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    float: left;
+    left: auto;
+    padding-bottom: 100%;
+    position: relative;
+    margin: 0;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.hero-content-wrapper .entry-container {
+    clear: both;
+    margin: 0;
+    width: 100%;
+    z-index: 9;
+
+    .content-wrapper {
+        padding: 25px;
+    }
+}
+
+.color-scheme-wedding .hero-content-wrapper .entry-container .content-wrapper {
+    padding: 35px;
+}
+
+#hero-section .wrapper {    
+    .hero-content-wrapper.section-content-wrapper .entry-container.full-width {
+        margin: 0 auto;
+        padding: 0;
+    }
+} 
+
+#hero-section.text-align-left .section-description-wrapper.section-subtitle {
+    text-align: left;
+}
+
+#hero-section.text-align-right .section-description-wrapper.section-subtitle {
+    text-align: right;
+}
+
+#hero-section .section-description-wrapper.section-subtitle {
+    text-align: center;
+}

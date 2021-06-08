@@ -1,0 +1,202 @@
+/**
+ * 7.3.15 - Promotional Headline
+ */
+
+
+.promotion-section {
+    border: none;
+    position: relative;
+}
+
+.promotion-section .hentry {
+    position: initial;
+}
+
+.promotion-section.content-frame .entry-container-frame {
+    padding: 35px;
+    position: relative;
+
+    &:after {
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+.post-thumbnail-background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.promotion-section .promo-logo {
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+.promotion-section .post-thumbnail-background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.app-section .content-wrapper {
+    padding: 0 30px;
+}
+
+.promotion-section .entry-container {
+    max-width: 580px;
+    z-index: 2;
+}
+
+.promotion-section.content-align-center .entry-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promotion-section.content-align-left .entry-container {
+    float: left;
+}
+
+.promotion-section.content-align-right .entry-container {
+    float: right;
+}
+
+.promotion-section .post-thumbnail-background:before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
+.app-section.content-frame .entry-container-frame {
+    padding: 3em;
+}
+
+.promotion-section.text-align-center {
+    text-align: center;
+}
+
+#hero-section.text-align-right,
+.promotion-section.text-align-right,
+#hero-section.text-align-left,
+.promotion-section.text-align-left,
+.app-section.text-align-left,
+.app-section.text-align-right {
+    text-align: center;
+}
+
+.text-align-left .post-thumbnail img {
+    margin-left: auto;
+}
+
+.text-align-right .post-thumbnail img {
+    margin-right: auto;
+}
+
+#promotion-section .play-video {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+
+
+    .play-button {
+        background-color: transparent;
+        box-shadow: 0px 15px 30px -17px rgba(0, 0, 0, 0.75);
+        -webkit-border: none;
+        border: 0;
+        @include transition(0.3s ease-in-out);
+        @include border(50%);
+        @include flex;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
+        height: 48px;
+        padding: 0;
+        position: relative;
+        width: 48px;
+
+        &:after {
+            content: "";
+            @include border(45px);
+            height: 100%;
+            left: 0;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+
+        &:hover,
+        &:focus {
+            animation: ripple 0.7s linear infinite;
+            transform: none;
+        }
+    }
+}
+
+#promotion-section .play-video .play-button:hover:after {
+    opacity: 1;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.3),
+                0 0 0 9px rgba(255,255,255, 0.3),
+                0 0 0 16px rgba(255,255,255, 0.3),
+                0 0 0 24px rgba(255,255,255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 9px rgba(255,255,255, 0.3),
+                0 0 0 16px rgba(255,255,255, 0.3),
+                0 0 0 24px rgba(255,255,255, 0.3),
+                0 0 0 32px rgba(255,255,255, 0);
+  }
+}
+
+#promotion-section.content-align-center.text-align-center .play-video {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+
+    .play-button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.promotion-section .more-link {
+    margin-top: 0;
+}
+
+.color-scheme-photography .promotion-section .entry-container-frame:after {
+    opacity: 0.6;
+}

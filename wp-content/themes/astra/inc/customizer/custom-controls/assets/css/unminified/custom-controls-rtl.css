@@ -978,6 +978,8 @@
 }
 
 .ast-top-divider.customize-control-ast-toggle-control .ast-divider-title + .ast-togglecontrol-wrapper,
+.ast-bottom-divider.customize-control-ast-toggle-control .ast-divider-title + .ast-togglecontrol-wrapper,
+.ast-top-divider.customize-control-ast-responsive-toggle-control .ast-divider-title + .ast-responsive-toggle-control-wrapper,
 .ast-top-divider.customize-control-ast-responsive-color .ast-divider-title + .ast-control-wrap,
 .ast-top-divider.customize-control-ast-slider .ast-divider-title + .ast-slider-wrap,
 .customize-control-ast-color-group .ast-divider-title + .ast-control-wrap {
@@ -1981,6 +1983,8 @@
 }
 
 .ast-top-divider.customize-control-ast-toggle-control .ast-divider-title + .ast-togglecontrol-wrapper,
+.ast-bottom-divider.customize-control-ast-toggle-control .ast-divider-title + .ast-togglecontrol-wrapper,
+.ast-top-divider.customize-control-ast-responsive-toggle-control .ast-divider-title + .ast-responsive-toggle-control-wrapper,
 .ast-top-divider.customize-control-ast-responsive-color .ast-divider-title + .ast-control-wrap,
 .ast-top-divider.customize-control-ast-slider .ast-divider-title + .ast-slider-wrap,
 .customize-control-ast-color-group .ast-divider-title + .ast-control-wrap {
@@ -2233,7 +2237,7 @@ input[type="text"].select2-search__field {
 	padding-top: 25px;
 }
 
-.ast-top-divider > label.ast-divider-title,
+.ast-top-divider > label.ast-divider-title, .ast-bottom-divider > label.ast-divider-title,
 .customize-control-ast-color-group > .ast-divider-title {
 	display: block;
 	width: 100%;
@@ -3113,6 +3117,67 @@ input[type="text"].select2-search__field {
   margin-right: 0;
 }
 
+.customize-control-ast-responsive-toggle-control .components-toggle-control .components-base-control__field, .ast-responsive-toggle-control .components-base-control__field {
+    margin: 0;
+}
+
+.customize-control-ast-responsive-toggle-control .components-toggle-control .components-form-toggle, .customize-control-ast-link .ast-responsive-toggle-control .components-form-toggle {
+    margin: 0;
+    order: 2;
+}
+
+.customize-control-ast-link .ast-responsive-toggle-control .components-base-control__field {
+    margin: 20px 0;
+}
+
+.customize-control-ast-responsive-toggle-control .components-toggle-control .components-toggle-control__label, .ast-responsive-toggle-control label {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.customize-control-ast-responsive-toggle-control .ast-responsive-toggle-control-wrapper .ast-responsive-toggle-control {
+    display: none;
+}
+
+.customize-control-ast-responsive-toggle-control .ast-responsive-toggle-control-wrapper .ast-responsive-toggle-control.active {
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.customize-control-ast-responsive-toggle-control .ast-responsive-toggle-control-wrapper .ast-responsive-toggle-btns {
+    position: unset;
+    float: left;
+}
+
+.customize-control-ast-responsive-toggle-control .ast-responsive-toggle-control-wrapper .ast-responsive-toggle-btns > li.active{
+    vertical-align: middle;
+}
+
+.ast-responsive-toggle-btns > li {
+    margin-bottom: 0;
+    display: none;
+}
+  
+.ast-responsive-toggle-btns > li.active {
+    display: inline-block;
+}
+
+.ast-responsive-toggle-btns button[type="button"] {
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    opacity: .75;
+    outline: none;
+}
+
+.ast-responsive-toggle-btns button[type="button"] > i {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+}
 .ast-responsive-btns {
   display: inline-block;
   line-height: 1;
@@ -3227,7 +3292,7 @@ input[type="text"].select2-search__field {
 
 .ast-adv-toggle-icon {
   left: 2px;
-  top: -2px;
+  top: 0;
   position: absolute;
   width: 18px;
   height: 18px;
@@ -3328,7 +3393,7 @@ input[type="text"].select2-search__field {
 
 .ast-field-settings-wrap .ast-field-settings-modal {
   border-radius: 3px;
-  margin-top: 9px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -3934,7 +3999,7 @@ input[type="text"].select2-search__field {
 	padding-top: 25px;
 }
 
-.ast-top-divider > label.ast-divider-title,
+.ast-top-divider > label.ast-divider-title, .ast-bottom-divider > label.ast-divider-title,
 .customize-control-ast-color-group > .ast-divider-title {
 	display: block;
 	width: 100%;
@@ -4926,9 +4991,70 @@ input[type="text"].select2-search__field {
   margin-right: 0;
 }
 
+.customize-control-ast-responsive-toggle-control .components-toggle-control .components-base-control__field, .ast-responsive-toggle-control .components-base-control__field {
+    margin: 0;
+}
+
+.customize-control-ast-responsive-toggle-control .components-toggle-control .components-form-toggle, .customize-control-ast-link .ast-responsive-toggle-control .components-form-toggle {
+    margin: 0;
+    order: 2;
+}
+
+.customize-control-ast-link .ast-responsive-toggle-control .components-base-control__field {
+    margin: 20px 0;
+}
+
+.customize-control-ast-responsive-toggle-control .components-toggle-control .components-toggle-control__label, .ast-responsive-toggle-control label {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.customize-control-ast-responsive-toggle-control .ast-responsive-toggle-control-wrapper .ast-responsive-toggle-control {
+    display: none;
+}
+
+.customize-control-ast-responsive-toggle-control .ast-responsive-toggle-control-wrapper .ast-responsive-toggle-control.active {
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.customize-control-ast-responsive-toggle-control .ast-responsive-toggle-control-wrapper .ast-responsive-toggle-btns {
+    position: unset;
+    float: left;
+}
+
+.customize-control-ast-responsive-toggle-control .ast-responsive-toggle-control-wrapper .ast-responsive-toggle-btns > li.active{
+    vertical-align: middle;
+}
+
+.ast-responsive-toggle-btns > li {
+    margin-bottom: 0;
+    display: none;
+}
+  
+.ast-responsive-toggle-btns > li.active {
+    display: inline-block;
+}
+
+.ast-responsive-toggle-btns button[type="button"] {
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    opacity: .75;
+    outline: none;
+}
+
+.ast-responsive-toggle-btns button[type="button"] > i {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+}
 .ast-adv-toggle-icon {
   left: 2px;
-  top: -2px;
+  top: 0;
   position: absolute;
   width: 18px;
   height: 18px;
@@ -5029,7 +5155,7 @@ input[type="text"].select2-search__field {
 
 .ast-field-settings-wrap .ast-field-settings-modal {
   border-radius: 3px;
-  margin-top: 9px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 

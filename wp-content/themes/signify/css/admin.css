@@ -1,0 +1,38 @@
+.appearance_page_signify .two-col {
+	margin: 20px 0;
+}
+
+.appearance_page_signify .about-wrap h1 {
+	font-size: 28px;
+}
+
+.appearance_page_signify .about-wrap h3 {
+	font-weight: 400;
+}
+
+.appearance_page_signify .about-wrap .about-text {
+	margin: 0!important;
+	font-size: 16px;
+}
+
+.appearance_page_signify .about-img img {
+	margin: 0!important;
+	padding-left: 10px;
+}
+
+.appearance_page_signify .four-col {
+	clear: both;
+}
+
+.appearance_page_signify .four-col .col p {
+	padding-right: 10px;
+}
+
+.appearance_page_signify .four-col .col {
+	max-width: 25%;
+}
+
+.appearance_page_signify .col .dashicons {
+	margin-top: 6px;
+	margin-right: 4px;
+}

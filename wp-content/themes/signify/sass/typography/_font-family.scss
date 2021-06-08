@@ -1,0 +1,38 @@
+/**
+ * 2.2 - Font-Family
+ */
+
+body,
+button,
+input,
+select,
+textarea,
+#stats-section h2.entry-title,
+.woocommerce .product-container .button,
+#testimonial-content-section .entry-title,
+.sidebar .widget-title,
+.widget-area:not(.sidebar) .widget .widget-title,
+.menu-label,
+#infinite-handle span button {
+	font-family: $body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title,
+.post-navigation .post-title,
+.comment-meta .author-name,
+#testimonial-content-section .entry-content,
+.ui-tabs .ui-tabs-nav li a,
+.entry-title,
+.post-navigation .nav-title {
+	font-family: $heading-font;
+}
+
+.site-title {
+	font-family: $brand-title-font;
+}

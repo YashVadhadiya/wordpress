@@ -1,0 +1,240 @@
+/**
+ * 3.1 - Elements
+ */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin: 0 0 1.75em;
+}
+
+ul,
+ol {
+    margin: 0 0 1.75em 1.5em;
+    padding: 0;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+}
+
+dl {
+    margin: 0 0 1.75em;
+}
+
+dt {
+    font-weight: normal;
+}
+
+dd {
+    margin: 0 1.5em 1.75em;
+}
+
+img {
+    height: auto;
+    /* Make sure images are scaled correctly. */
+    max-width: 100%;
+    /* Adhere to container width. */
+    vertical-align: middle;
+}
+
+del {
+    opacity: 0.8;
+}
+
+table,
+caption,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    /* Prevents HTML tables from becoming too wide */
+    width: 100%;
+}
+
+caption {
+    border-width: 1px 1px 0 1px;
+    font-weight: 700;
+    text-align: center;
+}
+
+th,
+td {
+    border-width: 0 1px 1px 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    font-weight: 700;
+}
+
+tbody th {
+    font-weight: 400;
+}
+
+thead th {
+    border-width: 0 1px 1px 0;
+}
+
+caption,
+th,
+td {
+    padding: 0.778em;
+}
+
+.displaynone {
+    display: none;
+}
+
+.displayblock {
+    display: block;
+}
+
+.cover-link {
+    display: block;
+    height: 100%;
+}
+
+.drop-cap:first-letter {
+    float: left;
+    font-size: 120px;
+    font-size: 7.5rem;
+    font-weight: 700;
+    line-height: 0.6;
+    margin: 14px 16px 5px -3px;
+}
+
+.event-list-description,
+.events-content-wrapper .entry-summary,
+.author-thumb,
+#team-dots,
+.footer-contact,
+.team-section .social-links-menu,
+#feature-slider-section .owl-prev,
+#feature-slider-section .owl-next,
+.custom-header-media .wp-custom-header-video-button,
+.archive-post-wrap .layout-one .hentry-inner,
+#feature-slider-section .slider-content-wrapper,
+#scrollup {
+    @include flex;
+}
+
+#gallery-section .gallery-item .gallery-icon a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item a:before,
+.more-link,
+#service-section .post-thumbnail img,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#team-dots li,
+.owl-carousel .owl-dots button.owl-dot,
+#feature-slider-section .owl-dots button.owl-dot span,
+#signify-logo-slider-section .owl-prev:before,
+#signify-logo-slider-section .owl-next:before,
+#promotion-section .button.play-button:before,
+.entry-content button,
+.entry-summary button,
+button,
+.site-content .archive-posts-wrapper .posts-navigation .nav-links > div a,
+#scrollup,
+.portfolio-section .hentry-inner:hover .entry-container,
+.portfolio-section .post-thumbnail img,
+.woocommerce .products .product-container .added_to_cart,
+#site-generator #social-footer-navigation a:before,
+.events-section .post-thumbnail img,
+#collection-section .collection-wrapper .product-container .added_to_cart,
+.menu-label,
+#sticky-playlist-section,
+#sticky-playlist-section .playlist-wrapper,
+.collection-wrapper .post-thumbnail,
+#content #infinite-handle span button {
+    @include transition(0.3s ease-in-out);
+}
+
+.mejs-time-handle-content:hover,
+.mejs-time-handle-content:focus,
+.portfolio-section .hentry-inner:hover .post-thumbnail img,
+.portfolio-section .hentry-inner:focus .post-thumbnail img,
+.events-section .hentry-inner:hover .post-thumbnail img,
+.events-section .hentry-inner:focus .post-thumbnail img,
+.collection-wrapper .hentry-inner:hover .post-thumbnail,
+.collection-wrapper .hentry-inner:focus .post-thumbnail,
+ul.products li.product > a:hover img,
+ul.products li.product > a:focus img,
+.gallery-section .gallery-item img {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+#sticky-playlist-section .wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+tbody{
+
+    tr{
+
+        th, td{
+            border-bottom: 0px;
+        }
+    }
+
+    tr:last-child {
+
+        th, td{
+            border-bottom: 1px solid;
+        }
+    }
+}
+
+.archive-posts-wrapper .layout-one .hentry .hentry-inner {
+    flex-wrap: nowrap;
+}
+
+figure {
+    margin: 0;
+}
+
+.gallery-item {
+    display: inline-block;
+    max-width: 33.33%;
+    padding: 0 1.1400652% 2.2801304%;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}

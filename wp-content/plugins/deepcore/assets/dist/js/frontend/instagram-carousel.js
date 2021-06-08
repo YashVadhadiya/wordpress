@@ -1,0 +1,1 @@
+jQuery(".owl-carousel-instagram").owlCarousel({loop:!0,margin:36,autoplay:!0,nav:!0,dots:!1,responsive:{0:{items:3,margin:10},768:{items:3,margin:23},961:{items:5}}});

@@ -1,0 +1,223 @@
+/**
+ * 2.1 - FontAwesome
+ */
+
+.sticky-post:before,
+.post-edit-link:before,
+#promotion-section .button.play-button:before,
+.pagination .prev span:before,
+.pagination .next span:after,
+.gallery-item .gallery-icon a:after,
+.tiled-gallery .tiled-gallery-item a:after,
+.comment-meta .comment-permalink:before,
+.site-header-cart .cart-contents:before,
+#header-top .cart-contents:before,
+.mejs-button button:before,
+.signify-mejs-container.mejs-container .mejs-button button:before,
+.nav-next .nav-subtitle:after,
+.nav-previous .nav-subtitle:before,
+.cat-links span + a:before,
+.tags-links span + a:before,
+.wp-playlist-playing .wp-playlist-item-length:before,
+.wp-custom-header-video-button:before,
+.search-toggle:before,
+.menu-toggle:before,
+.menu-toggle-close:before,
+.main-navigation .menu-item-has-children > a:after,
+.main-navigation .page_item_has_children > a:after,
+.top-navigation .menu-item-has-children > a:after,
+.top-navigation .page_item_has_children > a:after,
+.dropdown-toggle:after,
+.search-submit:before,
+.social-navigation a:before,
+#feature-slider-section .owl-prev:before,
+#feature-slider-section .owl-next:before,
+#signify-logo-slider-section .owl-prev:before,
+#signify-logo-slider-section .owl-next:before,
+#testimonial-content-section .owl-prev:before,
+#testimonial-content-section .owl-next:before,
+.team-content-wrapper .owl-prev:before,
+.team-content-wrapper .owl-next:before,
+.entry-breadcrumbs a:after,
+.posts-navigation .nav-links .nav-previous a:before,
+.posts-navigation .nav-links .nav-next a:after,
+.comment-reply-title small a:before,
+.mejs-container .mejs-toggle-playlist button:before,
+.abletone-mejs-container.mejs-container .mejs-play button:before, .abletone-mejs-container.mejs-container .mejs-replay button:before,
+#scrollup:before {
+	display: inline-block;
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.mejs-container .mejs-toggle-playlist button:before {
+    content: "\f0ca";
+}
+
+.mejs-container .mejs-volume-button button:before {
+    content: "\f028";
+}
+
+.mejs-container .mejs-play button:before,
+.wp-playlist-playing .wp-playlist-item-length:before, 
+.mejs-container .mejs-replay button:before {
+    content: "\f04b";
+}
+
+.posts-navigation .nav-links .nav-previous a:before {
+	content: "\f100";
+}
+
+.posts-navigation .nav-links .nav-next a:after {
+	content: "\f101";
+}
+
+.sticky-post:before {
+	content: "\f097";
+}
+
+.site-header-cart .cart-contents:before,
+#header-top .cart-contents:before {
+	content: "\f291";
+}
+
+.menu-toggle:before {
+	content: "\f0c9";
+}
+
+.menu-toggle.selected:before,
+#top-menu-wrapper.is-open .menu-top-toggle:before,
+.comment-reply-title small a:before {
+	content: "\f00d";
+}
+
+.search-toggle:before,
+.search-submit:before,
+#gallery-section .gallery-item .gallery-icon a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item a:after {
+	content: "\f002";
+}
+
+.dropdown-toggle:after {
+	content: "\f107";
+}
+
+.active.dropdown-toggle:after {
+	content: "\f106";
+}
+
+.pagination .prev span:before,
+#feature-slider-section .owl-prev:before,
+.team-content-wrapper .owl-prev:before {
+	content: "\f104";
+}
+
+.pagination .next span:after,
+#feature-slider-section .owl-next:before,
+.team-content-wrapper .owl-next:before {
+	content: "\f105";
+}
+
+#signify-logo-slider-section .owl-prev:before,
+#testimonial-content-section .owl-prev:before {
+	content: "\f104";
+}
+
+#signify-logo-slider-section .owl-next:before,
+#testimonial-content-section .owl-next:before {
+	content: "\f105";
+}
+
+.wp-custom-header-video-play:before,
+.mejs-pause button:before {
+	content: "\f04c";
+}
+
+.wp-custom-header-video-pause:before {
+	content: "\f04b";
+}
+
+#scrollup:before {
+	content: "\f106";
+}
+
+.entry-meta span a:before {
+    margin-right: 13px;
+}
+
+.entry-footer .cat-links span + a:before {
+    content: "\f07b";
+}
+
+.entry-footer .tags-links span + a:before {
+    content: "\f02b";
+}
+
+.nav-next .nav-subtitle:after {
+	content: "\f105";
+	margin-left: 7px;
+}
+
+.nav-previous .nav-subtitle:before {
+	content: "\f104";
+	margin-right: 7px;
+}
+
+.pagination .prev span:before,
+.pagination .next span:after {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+.pagination .prev span:before {
+	margin-right: 7px;
+}
+
+.pagination .next span:after {
+	margin-left: 7px;
+}
+
+#scrollup:before,
+#feature-slider-section .owl-prev:before,
+#feature-slider-section .owl-next:before {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+#signify-logo-slider-section .owl-prev:before,
+#signify-logo-slider-section .owl-next:before {
+	font-size: 42px;
+	font-size: 2.625rem;
+}
+
+#testimonial-content-section .owl-prev:before,
+#testimonial-content-section .owl-next:before {
+	font-size: 52px;
+	font-size: 3.25rem;
+}
+
+.nav-next .nav-subtitle:after,
+.nav-previous .nav-subtitle:before {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+#promotion-section .button.play-button:before {
+	content: "\f04b";
+	font-size: 17px;
+	font-size: 1.0625rem;
+}
+
+.post-edit-link:before {
+	content: "\f040";
+}
+
+.share-toggle:before {
+	content: "\f1e0";
+}

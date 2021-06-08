@@ -1,0 +1,1 @@
+!function(e){var t;e(".itemx")&&e(".tg-item")&&(t=e(".single-gallery").find(".tg-item").length,e(".itemx").prepend(t+" "))}(jQuery);

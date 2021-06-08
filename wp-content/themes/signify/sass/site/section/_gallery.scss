@@ -1,0 +1,134 @@
+/**
+ * 7.3.9 - Gallery Section
+ */
+
+#gallery-section {
+    border-bottom: none;
+}
+
+
+
+#gallery-section.no-headline {
+    padding-top: 0;
+}
+
+#gallery-section.no-headline.no-view-more-button,
+#gallery-section .section-content-wrapper,
+#gallery-section .hentry {
+    padding: 0;
+}
+
+#gallery-section.no-headline.no-view-more-button .hentry {
+    margin: 0;
+}
+
+.tiled-gallery-caption,
+.gallery-caption {
+    z-index: 99;
+}
+
+#gallery-section .gallery-item .gallery-icon a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item a:before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#gallery-section .gallery-item .gallery-icon a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item a:after {
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-size: 1.125rem;
+    height: 42px;
+    padding: 12px;
+    width: 42px;
+    text-align: center;
+    z-index: 2;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gallery-section .gallery-item .gallery-icon a:before,
+#gallery-section .gallery-item .gallery-icon a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item a:after {
+    opacity: 0;
+}
+
+#gallery-section .gallery-item .gallery-icon:hover a:before,
+#gallery-section .gallery-item .gallery-icon:focus a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item:hover a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item:focus a:before {
+    opacity: 0.75;
+}
+
+#gallery-section .gallery-item .gallery-icon:hover a:after,
+#gallery-section .gallery-item .gallery-icon:focus a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item:hover a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item:focus a:after {
+    opacity: 1;
+}
+
+#gallery-section .entry-content > *:not(div) {
+    max-width: 946px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+}
+
+#gallery-section .entry-footer {
+    display: block;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    z-index: 199;
+}
+
+#gallery-section .entry-footer .edit-link a {
+    padding: 7px 14px;
+    text-decoration: none;
+}
+
+#gallery-section .gallery-item {
+    float: left;
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+
+    a {
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+.gallery-caption {
+    background: #000;
+    padding: 14px;
+    width: 100%;
+    z-index: 99;
+}
+
+#gallery-section .section-content-wrapper .entry-content {
+    margin: 0;
+}
+
+.gallery-section.section.no-section-heading {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.gallery-section.section.no-section-heading .hentry {
+    margin-bottom: 0;
+}

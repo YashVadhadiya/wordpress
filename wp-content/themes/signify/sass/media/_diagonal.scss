@@ -1,0 +1,324 @@
+/**
+ * 8.8 - >= 1660px
+ */
+
+@include media(diagonal) {
+    .is-open .menu-inside-wrapper {
+        right: 3%;
+    }
+
+    body {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    div#playlist-section .entry-content p:last-child,
+    div#playlist-section .entry-summary p:last-child {
+        margin-top: 42px;
+    }
+
+    .sticky-playlist-enabled.home .custom-header {
+        min-height: calc(100vh - 70px);
+    }
+
+    .play-video .content-wrapper {
+        padding: 180px 0 180px 0;
+    }
+
+    .site-header-logo,
+    .slider-content-wrapper .title-image {
+        max-width: 100%;
+    }
+
+    .footer-widget-area {
+        padding: 42px 0 0;
+    }
+
+    #team-dots {
+        max-width: 601px;
+    }
+
+    .archive-post-wrap .hentry .post-thumbnail-background + .entry-container {
+        padding: 320px 50px;
+        padding-right: 140px;
+    }
+
+    .archive-post-wrap .hentry:nth-child(2n) .post-thumbnail-background + .entry-container {
+        padding-left: 140px;
+        padding-right: 50px;
+    }
+
+    #team-dots li {
+        margin-right: 35px;
+    }
+
+    .above-footer {
+        padding-top: 70px;
+    }
+
+    .widget-column + .above-footer {
+        padding-top: 28px;
+    }
+
+    #sticky-playlist-section .wp-playlist-caption,
+    #sticky-playlist-section .wp-playlist-item-title,
+    #sticky-playlist-section .wp-playlist-item-length,
+    #sticky-playlist-section .bespoke-mejs-container.mejs-container .mejs-time {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .single .site-main .entry-header,
+    .page .site-main .entry-header,
+    .archive .page-header,
+    .error404 .page-header,
+    .search .page-header,
+    .woocommerce-products-header {
+        margin-bottom: 83px;
+    }
+
+    .playlist-content-wrapper.content-align-left .entry-container {
+        padding-left: 0;
+        padding-right: 63px;
+    }
+
+    ul.products li.product .price,
+    .events-content-wrapper .date-month-year,
+    .menu-toggle-close,
+    .dropdown-toggle,
+    .search-submit:before,
+    aside.footer-widget-area .widget {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+    .site-title {
+        font-size: 50px;
+        font-size: 3.125rem;
+    }
+
+    .entry-content h1,
+    .entry-summary h1,
+    .comment-content h1,
+    .textwidget h1,
+    .section-title,
+    #app-section .section-title,
+    #hero-section .entry-title,
+    #playlist-section .entry-title,
+    .singular-content-wrap .entry-title,
+    .page-title,
+    #contact-section .entry-title,
+    .events-content-wrapper .date-week-day,
+    .page .site-main .entry-title,
+    .single .site-main .entry-title {
+        font-size: 48px;
+        font-size: 3rem;
+    }
+
+    .color-scheme-photography.home .custom-header {
+        .section-title {
+            font-size: 178px;
+            font-size: 11.125rem;
+        }
+    }
+
+    #footer-instagram .widget-title,
+    .entry-content h2,
+    .entry-summary h2,
+    #stats-section h2.entry-title,
+    .comment-content h2,
+    .textwidget h2,
+    .comment-reply-title {
+        font-size: 42px;
+        font-size: 2.625rem;
+    }
+
+    .entry-content h3,
+    .entry-summary h3,
+    .comment-content h3,
+    .textwidget h3,
+    #collection-section .collection-wrapper .woocommerce-loop-product__title,
+    .events-content-wrapper .entry-title {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    .entry-content h4,
+    .entry-summary h4,
+    .comment-content h4,
+    .textwidget h4,
+    .post-navigation .nav-links,
+    #feature-slider-section .entry-summary,
+    #feature-slider-section .entry-content,
+    ul.products li.product .woocommerce-loop-product__title,
+    .comments-title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .entry-content h5,
+    .entry-summary h5,
+    .comment-content h5,
+    .textwidget h5,
+    .author-description .author-title,
+    .author-description .author-title {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    #footer-newsletter .widget {
+        padding: 49px 50px;
+    }
+
+    .section.no-section-heading {
+        padding-top: 98px;
+    }
+
+    #hero-section .wrapper {
+        padding: 91px 20px;
+    }
+
+    #footer-instagram .widget-title {
+        margin: 84px auto 42px;
+    }
+    
+    .site-footer-menu .wrapper > #social-footer-navigation {
+        padding: 42px 0;
+    }
+
+    nav#site-footer-navigation {
+        padding-top: 42px;
+    }
+
+    #team-dots li:after {
+        bottom: -35px;
+    }
+
+    #bespoke-logo-slider-section {
+        padding-bottom: 63px;
+    }
+
+    #site-generator {
+        padding-top: 70px;
+    }
+
+    .hero-content-wrapper .entry-container {
+        padding-bottom: 152px;
+        padding-top: 152px;
+    }
+
+    .content-align-right .hero-content-wrapper .entry-container {
+        padding-left: 120px;
+    }
+
+    .woocommerce a.button,
+    .woocommerce button.button,
+    .woocommerce button.button.alt,
+    .woocommerce input.button,
+    .woocommerce input.button.alt {
+        padding: 14px 35px;
+    }
+
+    .style-two.events-section .hentry-inner {
+        padding: 70px;
+    }
+    
+    #contact-section .section-content-wrapper {
+        padding: 91px 91px 61px;
+    }
+
+    #contact-section .main-image + .inner-section-content-wrapper .section-content-wrapper {
+        margin: 350px auto 42px;
+    }
+
+    #footer-instagram .widget-title {
+        font-size: 48px;
+        font-size: 3rem;
+    }
+
+    .section-content-wrapper .entry-summary,
+    .section-content-wrapper .entry-content,
+    .style-two.events-section .hentry-inner .entry-summary,
+    .style-two.events-section .hentry-inner .entry-content,
+    #contact-section .entry-content,
+    #contact-section .entry-summary,
+    .section .entry-content .button,
+    .section .entry-summary .button,
+    .comment-content,
+    .artist-social-profile {
+        margin-top: 28px;
+    }
+
+    .more-button {
+        margin-top: 35px;
+    }
+
+
+    .section-content-wrapper .post-thumbnail,
+    .filter-button-group.button-group,
+    .contact-details li {
+        margin-bottom: 28px;
+    }
+
+    .sticky-playlist-enabled.home.admin-bar #feature-slider-section {
+        min-height: calc(100vh - 104px);
+    }
+
+    #feature-slider-section .slider-content-wrapper,
+    .custom-header .custom-header-content {
+        padding: 182px 50px;
+    }
+
+    .custom-header .section-title,
+    #feature-slider-section .entry-title {
+        font-size: 80px;
+        font-size: 5rem;
+    }
+
+    .portfolio-section .entry-container > .entry-container-inner-wrap,
+    .portfolio-grid .archive-posts-wrapper .entry-container > .entry-container-inner-wrap {
+        padding: 35px;
+    }
+
+    body:not(.has-featured-slider):not(.has-header-media) .site-header + .section.portfolio-section .section-title {
+        font-size: 49px;
+        font-size: 3.0625rem;
+    }
+
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-default .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-music .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-wedding .site-header + .section.portfolio-section .section-heading-wrapper {
+        padding-bottom: 112px;
+    }
+
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-personal .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-portfolio .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-photography .site-header + .section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-ecommerce .site-header + .section.portfolio-section .section-heading-wrapper {
+        padding-bottom: 98px;
+    }
+
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-corporate .site-header + .section.portfolio-section .section-heading-wrapper {
+        padding-bottom: 84px;
+    }
+
+    nav#site-footer-navigation {
+        padding-top: 42px;
+    }
+
+    .sidebar .widget {
+        margin-bottom: 56px;
+    }
+
+    #testimonial-content-section .testimonial-pagination {
+        margin-top: 28px;
+    }
+
+    .section-heading-wrapper {
+        padding-bottom: 56px;
+    }
+
+    .promotion-section.content-frame .entry-container-frame {
+        padding: 56px;
+    }
+}

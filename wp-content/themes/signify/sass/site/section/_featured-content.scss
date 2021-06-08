@@ -1,0 +1,61 @@
+/**
+ * 7.3.7 - Featured Content
+ */
+
+.featured-content-wrapper,
+.portfolio-content-wrapper {
+    position: relative;
+}
+
+.featured-content-wrapper .entry-meta a {
+    font-weight: 700;
+}
+
+.featured-content-wrapper .post-thumbnail,
+.portfolio-content-wrapper .post-thumbnail {
+    width: 100%;
+}
+
+#featured-video-section .lightbox-enabled iframe {
+   pointer-events:none;
+}
+
+#featured-video-section a.mixed {
+    color: transparent;
+    display: block;
+}
+
+body .flashy-container .flashy-content {
+    background: transparent;
+}
+
+.featured-video-content-wrapper .entry-meta {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.featured-video-content-wrapper .entry-header .entry-meta {
+    line-height: 1.25;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+/* Service */
+.service-content-wrapper {
+    text-align: center;
+}
+
+.single-item .featured-video-content-wrapper .hentry:first-child {
+    margin: 0 auto;
+    float: none;
+}
+
+.archive-posts-wrapper .layout-one .hentry .hentry-inner {
+    border-bottom: solid 1px;
+}
+
+.archive-posts-wrapper .layout-two .hentry .post-thumbnail img,
+.archive-posts-wrapper .layout-three .hentry .post-thumbnail img,
+.featured-content-wrapper a img {
+    width: 100%;
+}

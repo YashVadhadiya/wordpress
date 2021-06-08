@@ -1,0 +1,1 @@
+!function(n){n(".wn-ftc").find(".wn-ftc-body").hide(),n(".wn-ftc").find(".wn-ftc-header").on("click",function(){n(this).closest(".wn-ftc").find(".wn-ftc-body").slideToggle().toggleClass("open"),n(this).closest(".wn-ftc").toggleClass("open")}),n(".wn-ftc").find(".wn-ftc-header").find(".ftc-close").on("click",function(){n(this).closest(".wn-ftc").fadeOut()})}(jQuery);

@@ -1,0 +1,33 @@
+/**
+ * 8.1 - >= 480px
+ */
+
+@media screen and (min-width: 30em) {
+	/* Woocommerce styles */
+
+	ul.products.columns-2 li.product,
+	ul.products.columns-4 li.product {
+		padding: 0 15px;
+	}
+
+	ul.products.columns-2 li.product:nth-child(2n+1),
+	ul.products.columns-4 li.product:nth-child(2n+1) {
+		clear: both;
+	}
+
+	.wp-custom-logo .custom-logo-link, .wp-custom-logo .site-identity {
+	    display: inline-block;
+	}
+
+	ul.products.columns-2 .onsale,
+	ul.products.columns-3 .onsale,
+	ul.products.columns-4 .onsale {
+		right: 15px;
+		left: auto;
+	}/* Woocommerce styles end here */
+
+	.wp-custom-logo .custom-logo-link {
+		margin-right: 21px;
+		margin-bottom: 0;
+	}
+}

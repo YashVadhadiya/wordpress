@@ -1,0 +1,1 @@
+!function(e){var a=e(".our-service-carousel-wrap").data("items");e(".our-service-carousel-wrap").owlCarousel({items:a,autoplay:!0,nav:!1,dots:!0,navText:["",""],479:{item:1},960:{item:2},1200:{item:3}})}(jQuery);

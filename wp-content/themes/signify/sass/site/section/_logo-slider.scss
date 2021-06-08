@@ -1,0 +1,80 @@
+/**
+ * 7.3.11 - Logo Slider
+ */
+
+#signify-logo-slider-section .owl-prev,
+#signify-logo-slider-section .owl-next {
+    border: 1px solid transparent;
+    @include border(50%);
+    cursor: pointer;
+    outline: none;
+    opacity: 1;
+    filter: alpha(opacity=0);
+    height: 50px;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 7px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-decoration: none;
+    width: 50px;
+    z-index: 199;
+}
+
+.signify-logo-slider-content-wrapper.owl-carousel .owl-item img {
+    width: auto;
+}
+
+#signify-logo-slider-section .owl-prev:before,
+#signify-logo-slider-section .owl-next:before {
+    transition-delay: 0.1s;
+    opacity: 1;
+}
+
+#signify-logo-slider-section {
+    &:hover button:before {
+        transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#signify-logo-slider-section .owl-prev {
+    left: 0;
+}
+
+#signify-logo-slider-section .owl-next {
+    right: 0;
+}
+
+#signify-logo-slider-section .owl-dots {
+    margin-bottom: 35px;
+    text-align: center;
+
+    .owl-dot {
+        display: inline-block;
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+#signify-logo-slider-section .owl-dots .owl-dot {
+    border: 1px solid transparent;
+}
+
+#signify-logo-slider-section .owl-dots .owl-dot.active {
+    transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}

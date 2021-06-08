@@ -1,0 +1,1 @@
+!function(n){n(document).ready(function(){960<Math.max(document.documentElement.clientWidth,window.innerWidth||0)&&n.fn.niceScroll&&n(".wn-inner-scroll-column").niceScroll({scrollbarid:"wn-inner-scroll-column",cursorborderradius:"0",cursorwidth:"12px",cursorborder:"0",autohidemode:!1})})}(jQuery);

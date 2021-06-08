@@ -1,0 +1,1008 @@
+/*
+Theme Name: Signify
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Typography
+ * 3.0 - FontAwesome
+ * 4.0 - Elements
+ * 5.0 - Padding/Margin
+ * 6.0 - Forms
+ * 7.0 - Navigation
+ *    7.1 - Main Menu
+ * 8.0 - Widgets
+ * 9.0 - Content
+ *	  9.1 - Posts and pages
+ *	  9.2 - Comments
+ * 10.0 - Modules
+ *	  10.1 - Audio Player
+ 	  10.2 - Hero Content
+ * 11.0 - WooCommerce
+ * 12.0 - Media Queries
+ *    12.1 - >= 640px
+ *    12.2 - >= 768px
+ *    12.3 - >= 1024px
+ *    12.4 - >= 1200px
+ */
+
+
+/**
+ * 1.0 - Normalize
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: auto;
+	margin-left: 0.4375em;
+}
+
+
+/**
+ * 2.0 - Typography
+ */
+
+blockquote {
+	border-right: 4px solid #01e0af;
+	border-left: 0;
+	padding-right: 1.263157895em;
+	padding-left: 0;
+}
+
+
+/**
+ * 3.0 - FontAwesome
+ */
+
+.nav-next .nav-subtitle:after {
+	margin-left: 0;
+	margin-right: 7px;
+}
+
+.nav-previous .nav-subtitle:before {
+	margin-left: 7px;
+	margin-right: 0;
+}
+
+
+
+/**
+ * 4.0 - Elements
+ */
+
+ul,
+ol {
+	margin: 0 1.5em 1.75em 0;
+}
+
+ol {
+	margin-right: 1.5em;
+	margin-left: 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+
+/**
+ * 5.0 - Padding/Margin
+ */
+
+.custom-header-content.content-align-left .section-title:after {
+	margin: 28px auto 0 0;
+}
+
+#promotion-section .play-button-text {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+.entry-footer .author img {
+	margin-right: 0;
+	margin-left: 1em;
+}
+
+
+/**
+ * 6.0 - Forms
+ */
+
+input[type="search"].search-field {
+	padding: 14px 14px 14px 60px ;
+}
+
+.search-submit {
+	left: 0;
+	right: auto;
+}
+
+
+/**
+ * 7.0 - Navigation
+ */
+
+/**
+ * 7.1 - Main Menu
+ */
+
+.main-navigation ul ul {
+	margin-left: 0;
+	margin-right: 0.875em;
+}
+
+.main-navigation ul ul li {
+	text-align: right;
+}
+
+.main-navigation .menu-item-has-children > a,
+.main-navigation .page_item_has_children > a {
+	padding-left: 49px;
+    padding-right: 30px;
+}
+
+.dropdown-toggle {
+	left: 0;
+	right: auto;
+}
+
+.dropdown-toggle:after {
+	border-right-width: 1px;
+	border-left-width: 0;
+	left: auto;
+	right: 1px;
+}
+
+.menu-inside-wrapper {
+	left: -400px;
+	right: auto;
+}
+
+.is-open .menu-inside-wrapper {
+	left: 0;
+	right: auto;
+}
+
+.menu-open .site {
+	left: auto;
+	right: 0;
+}
+
+.menu-label {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+
+/**
+ * 8.0 - Widgets
+ */
+
+.widget ul,
+.widget ol {
+	margin-right: 0;
+}
+
+/* Categories widget */
+.widget_categories ul,
+.widget_archive ul {
+	text-align: left;
+}
+
+.widget_categories ul a,
+.widget_archive ul a {
+	float: right;
+}
+
+.widget li > ul,
+.widget li > ol {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+#footer-newsletter .ewnewsletter .hentry {
+	text-align: right;
+}
+
+#footer-newsletter .section-heading-wrapper {
+	text-align: right;
+}
+
+
+/**
+ * 9.0 - Content
+ */
+
+/**
+ * 9.1 - Header
+ */
+
+.site-header-menu {
+	margin-left: -20px;
+	margin-right: 0;
+}
+
+.site-header-top-main ul li > .fa,
+.site-header-top-main ul li > a .fa {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+/**
+ * 9.2 - Posts and pages
+ */
+
+.recent-blog-content .view-more {
+	text-align: right;
+}
+
+.page-links a,
+.page-links > span {
+	margin-right: auto;
+	margin-left: 0.3076923077em;
+}
+
+.page-links > .page-links-title {
+	padding-right: 0;
+	padding-left: 0.6153846154em;
+}
+
+.entry-header .entry-meta > span {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.entry-header .entry-meta > span:last-child {
+	margin-right: auto;
+	margin-left: 0;
+}
+
+/**
+ * 9.3 - Comments
+ */
+
+.comment-author {
+	float: right;
+	margin: 0 0 1.5em 1.5em;
+}
+
+.comment-list .children li > article {
+	padding-left: 0;
+	padding-right: 2.5em;
+}
+
+.form-submit {
+	text-align: right;
+}
+
+
+/**
+ * 10.0 - Modules
+ */
+
+/**
+ * 10.1 - Audio Player
+ */
+
+body .wp-playlist-item-length {
+	left: 1.75em;
+	right: auto;
+}
+
+body .wp-playlist .wp-playlist-current-item img {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#sticky-playlist-section .wp-playlist-item-length {
+	left: 1.75em;
+	right: auto;
+}
+
+#sticky-playlist-section .wp-playlist-current-item {
+    padding: 0 0 0 21px;
+}
+
+#sticky-playlist-section .wp-playlist-current-item {
+    padding: 5px 0 5px 10px;
+}
+
+#sticky-playlist-section .signify-mejs-sticky-playlist-container {
+	left: -14px;
+	right: 0;
+}
+
+#sticky-playlist-section .mejs-container.signify-mejs-container .mejs-toggle-playlist {
+	right: auto;
+	left: 0;
+}
+
+#sticky-playlist-section .mejs-container.signify-mejs-container .mejs-inner {
+    margin-right: 0;
+    margin-left: 55px;
+}
+
+/**
+ * 10.2 - Section
+ */
+
+/* #hero-section,
+ #testimonial-content-section,
+ #testimonial-content-section .owl-nav,
+ #playlist-section {
+ 	direction: ltr;
+ }*/
+
+#hero-section,
+#playlist-section,
+#testimonial-content-section .owl-nav {
+ 	direction: ltr;
+ }
+
+.signify-mejs-container.mejs-container .mejs-next button:before {
+ 	content: "\f048";
+}
+
+.signify-mejs-container.mejs-container .mejs-previous button:before {
+ 	content: "\f051";
+}
+
+#testimonial-content-section .owl-nav {
+	bottom: 0;
+	left: 77px;
+	right: auto;
+	width: auto;
+}
+
+body .wp-playlist-item-length {
+    right: 1.75em;
+    left: auto;
+}
+
+.owl-carousel .owl-dots button.owl-dot {
+	margin-right: 0;
+	margin-left: 14px;
+}
+
+#testimonial-content-section .section-content-wrapper .hentry-inner .post-thumbnail {
+	margin-left: 25px;
+	margin-right: 0;
+}
+
+.events-content-wrapper .date-week-day {
+ 	margin-left: 18px;
+ 	margin-right: 0;
+ }
+
+ .archive-post-wrap .hentry .entry-container {
+ 	margin-right: auto;
+ }
+
+ .archive-post-wrap .hentry:nth-child(2n) .entry-container {
+ 	margin-left: auto;
+ 	margin-right: 0;
+ }
+
+ .footer-contact p {
+ 	margin-left: 15px;
+    margin-right: 0;
+}
+
+#feature-slider-section .entry-container {
+	text-align: right;
+}
+
+.events-content-wrapper .entry-meta {
+	float: right;
+	margin-left: 28px;
+	margin-right: 0;
+}
+
+#team-content-section .team-content-wrapper.owl-carousel .owl-nav {
+	direction: ltr;
+	left: 98px;
+	right: auto;
+}
+
+/**
+ * 11.0 - WooCommerce
+ */
+
+/**
+ *  11.1 - Layout
+ */
+
+.site-content .woocommerce-result-count {
+	float: right;
+}
+
+.site-content .woocommerce-ordering {
+	clear: none;
+	float: left;
+}
+
+/**
+ * 11.2 - Shop tables
+ */
+
+table.shop_table_responsive tr td {
+	text-align: left;
+}
+
+table.shop_table_responsive tr td:before {
+	float: right;
+}
+
+
+/**
+ * 11.3 - Onsale
+ */
+
+.onsale {
+	left: auto;
+	right: 0;
+}
+
+ul.products .onsale {
+	left: auto;
+	right: 20px;
+}
+
+/**
+ * 11.4 - Price
+ */
+
+.price del + ins {
+	margin-left: 0;
+	margin-right: .327em;
+}
+
+
+/**
+ * 11.5 - Single product
+ */
+
+.single-product div.product .entry-summary .entry-title {
+	text-align: right;
+}
+
+.single-product div.product .woocommerce-product-rating .star-rating {
+	float: right;
+	margin: 0 0 0 7px;
+}
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+	left: 1em;
+	right: auto;
+}
+
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li {
+	float: left;
+}
+
+.single-product div.product form.cart {
+	margin: 0 0 1.5em;
+}
+
+.single-product div.product form.cart .quantity {
+	float: right;
+	margin-left: 21px;
+	margin-right: 0;
+}
+
+.variations .reset_variations {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+#reviews #comments ol.commentlist,
+ul.woocommerce-error {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+
+/**
+ * 11.6 - Tabs
+ */
+
+.woocommerce-tabs .panel,
+.woocommerce-tabs ul.tabs {
+	text-align: right;
+}
+
+.woocommerce-tabs ul.tabs li a {
+	margin-right: 0;
+	margin-left: 35px;
+}
+
+
+/**
+ * 11.7 - General WooCommerce components
+ */
+
+/**
+ * 11.7.1 - Header cart
+ */
+
+.site-header-cart li {
+	margin: 0;
+}
+
+.navigation-classic .menu-inside-wrapper .site-header-cart .cart-contents {
+	display: inline-block;
+}
+
+.site-header-cart .product_list_widget .mini_cart_item .remove_from_cart_button {
+	margin-left: 0;
+	margin-right: 5px;
+
+}
+.product_list_widget li img {
+	float: left;
+}
+
+.site-header-cart .product_list_widget img {
+	margin-left: 0;
+	margin-right: 1em;
+}
+
+#site-header-cart-wrapper {
+	text-align: right;
+}
+
+#primary-menu-wrapper .site-header-cart .cart-contents:before {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+/**
+ * 11.7.2 - Notices
+ */
+
+.woocommerce-message a.button {
+	margin-left: 14px;
+	margin-right: 0;
+}
+
+#add_payment_method #payment .payment_method_paypal img,
+.woocommerce-cart #payment .payment_method_paypal img,
+.woocommerce-checkout #payment .payment_method_paypal img {
+	margin-left: 0;
+	margin-right: 7px;
+}
+
+.demo_store .woocommerce-store-notice__dismiss-link {
+	float: left;
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+#team-content-section .team-content-wrapper.owl-carousel .owl-nav {
+	left: 30px;
+}
+
+
+/**
+ * 11.7.3 - WooCommerce widgets
+ */
+
+/**
+ * 11.7.2.1 - WooCommerce Price Filter
+ */
+
+.widget_layered_nav_filters a:before {
+	margin-right: 0;
+	margin-left: 7px;
+}
+
+.widget_categories li,
+.widget_archive li {
+	text-align: left;
+}
+
+.widget_categories span,
+.widget_archive span {
+	float: left;
+}
+
+#footer-newsletter .ewnewsletter .hentry form input[type="submit"] {
+	border-top-left-radius: 45px;
+	border-bottom-left-radius: 45px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#contact-section .section-heading-wrapper {
+	text-align: right;
+}
+
+.contact-details li > a .fa {
+	margin-right: 0;
+	margin-left: 21px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	text-align: right;
+}
+
+#site-generator #social-footer-navigation a span {
+	margin-left: 0;
+	margin-right: 9px;
+}
+
+.site-header-cart .cart-contents .amount:before {
+	margin-right: 0;
+	margin-left: 7px;
+}
+
+.site-header-cart .cart-contents .count {
+	left: unset;
+	right: 28px;
+}
+
+.site-header-cart .cart-contents .amount {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+.header-style-two .site-header .site-header-main .wrapper .site-branding {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+/**
+ * 12.0 - Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 12.0 - >= 480px
+ */
+
+@media screen and (min-width: 30em) {
+	#footer-newsletter .ewnewsletter .hentry form input[type="submit"] {
+		right: unset;
+		left: 0;
+	}
+
+	#footer-newsletter .ewnewsletter .hentry form input[type="email"] {
+	    padding-left: 130px;
+	    padding-right: 18px;
+	}
+}
+
+/**
+ * 12.0 - >= 568px
+ */
+
+@media screen and (min-width: 35.5em) {
+	.wp-custom-logo .site-identity {
+		text-align: right;
+	}
+
+	.wp-custom-logo .custom-logo-link {
+		margin-right: 0;
+		margin-left: 21px;
+	}
+
+	.stats-content-wrapper .post-thumbnail {
+		margin: 0 0 0 28px;
+	}
+
+	.stats-content-wrapper .entry-container {
+		text-align: right;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .entry-container {
+	    padding-left: 25px;
+	    padding-right: 0;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .post-thumbnail {
+	    padding-left: 0;
+	    padding-right: 25px;
+	}
+
+	.timeline-section .hentry .hentry-inner .post-thumbnail {
+	    padding-left: 25px;
+	    padding-right: 0;
+	}
+
+	.timeline-section .hentry .hentry-inner .entry-container {
+	    padding-left: 0;
+	    padding-right: 25px;
+	}
+}
+
+
+/**
+ * 12.1 - >= 640px
+ */
+
+@media screen and (min-width: 40em) {
+	/* Woocommerce styles */
+	table.cart td.actions .coupon {
+		float: right;
+	}
+
+	table.cart td.actions {
+		text-align: left;
+	}
+
+	.single-product div.product .woocommerce-product-gallery,
+	.single-product div.product .entry-summary {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+
+	.single-product div.product .entry-summary {
+		margin: 0;
+		padding-left: 0;
+		padding-right: 35px;
+	}/* Woocommerce styles end here */
+
+	.author-info {
+		text-align: right;
+	}
+
+	.author-avatar {
+		float : right;
+		margin: 0 0 0 35px;
+	}
+
+	.footer-newsletter .has-ew-newsletter-image .ew-newsletter-content-container {
+		padding-left: 66px;
+		padding-right: 42px;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .entry-container {
+	    padding-left: 35px;
+	    padding-right: 0;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .post-thumbnail {
+	    padding-left: 0;
+	    padding-right: 35px;
+	}
+
+	.timeline-section .hentry .hentry-inner .entry-container {
+	    padding-left: 0;
+	    padding-right: 35px;
+	}
+
+	.timeline-section .hentry .hentry-inner .post-thumbnail {
+    	padding-left: 35px;
+	    padding-right: 0;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .entry-container {
+	    text-align: left;
+	}
+}
+
+
+/**
+ * 12.2 - >= 768px
+ */
+
+@media screen and (min-width: 48em) {
+	/* Woocommerce styles */
+	table.shop_table_responsive tr th,
+	table.shop_table_responsive tr td {
+		text-align: right;
+	}
+
+	#team-content-section .team-content-wrapper.owl-carousel .owl-nav {
+		left: 87px;
+	}
+
+	.team-content-wrapper.section-content-wrapper .entry-container {
+		margin-left: 56px;
+		margin-right: auto;
+	}
+
+	.site-header-cart:hover .widget_shopping_cart,
+	.site-header-cart.focus .widget_shopping_cart {
+		left: 15px;
+		right: auto;
+	}/* Woocommerce styles end here */
+
+
+	#testimonial-content-section .main-thumbnail {
+		right: auto;
+		left: 0;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .entry-container {
+	    padding-left: 70px;
+	    padding-right: 0;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .post-thumbnail {
+	    padding-left: 0;
+	    padding-right: 70px;
+	}
+
+	.timeline-section .hentry .hentry-inner .post-thumbnail {
+	    padding-left: 70px;
+	    padding-right: 0;
+	}
+
+	.timeline-section .hentry .hentry-inner .entry-container {
+	    padding-left: 0;
+	    padding-right: 70px;
+	}
+}
+
+
+/**
+ * 12.3 - >= 1024px
+ */
+
+@media screen and (min-width: 64em) {
+	ul.products.columns-2 li.product .onsale,
+	ul.products.columns-3 li.product .onsale,
+	ul.products.columns-4 li.product .onsale {
+		right: 20px;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .entry-container {
+	    padding-left: 135px;
+	    padding-right: 0;
+	}
+
+	.timeline-section .hentry:nth-child(2n-1) .hentry-inner .post-thumbnail {
+	    padding-left: 0;
+	    padding-right: 135px;
+	}
+
+	.timeline-section .hentry .hentry-inner .entry-container {
+	    padding-left: 0;
+	    padding-right: 135px;
+	}
+
+	.timeline-section .hentry .hentry-inner .post-thumbnail {
+	    padding-left: 135px;
+	    padding-right: 0;
+	}
+
+	.events-content-wrapper .entry-summary .more-link {
+	    margin-left: 0;
+	    margin-right: auto;
+	}
+
+	.site-header-menu {
+	    margin-left: 0;
+	}
+
+	.is-open .menu-inside-wrapper {
+		left: 3.75%;
+	}
+
+	.archive-posts-wrapper .layout-one .hentry .post-thumbnail + .entry-container,
+	.no-sidebar .archive-posts-wrapper .layout-one .hentry .post-thumbnail + .entry-container {
+	    padding: 0 72px;
+	    padding-left: 0;
+	}
+
+	.stats-content-wrapper .post-thumbnail {
+		margin: 0 0 0 35px;
+	}
+}
+
+
+/**
+ * 12.4 - >= 1200px
+ */
+
+@media screen and (min-width: 75em) {
+
+	.navigation-classic .main-navigation .menu-item-has-children > a {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a:after,
+	.navigation-classic .main-navigation .page_item_has_children > a:after {
+	    padding-left: 0;
+	    padding-right: 7px;
+	}
+
+	.navigation-classic .main-navigation ul li:hover > ul,
+	.navigation-classic .main-navigation ul li.focus > ul {
+	    left: 20px;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul li:hover > ul,
+	.navigation-classic .main-navigation ul ul li.focus > ul {
+	    left: 100%;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul .menu-item-has-children > a:after,
+	.navigation-classic .main-navigation ul ul .page_item_has_children > a:after {
+	    -webkit-transform: rotate(270deg);
+	    -moz-transform: rotate(270deg);
+	    -ms-transform: rotate(270deg);
+	    transform: rotate(270deg);
+	    padding: 0;
+	    position: absolute;
+	    top: 14px;
+	    right: auto;
+	    left: 21px
+	}
+
+	#team-content-section .team-content-wrapper.owl-carousel .owl-nav {
+	    left: 106px;
+	}
+
+	#header-top input[type="search"].search-field {
+		padding: 11px 11px 11px 47px;
+	}
+
+	.top-navigation ul ul .menu-item-has-children > a::after, .top-navigation ul ul .page_item_has_children > a::after {
+	    left: 21px;
+	    right: unset;
+	}
+
+	.navigation-classic #primary-search-wrapper .menu-inside-wrapper {
+	    right: unset;
+	    left: 0;
+	}
+}
+
+/**
+ * 12.4 - >= 1366px
+ */
+
+ @media screen and (min-width: 85.375em) {
+ 	.team-content-wrapper .entry-content {
+ 		padding-left: 90px;
+ 		padding-right: 0;
+ 	}
+ }

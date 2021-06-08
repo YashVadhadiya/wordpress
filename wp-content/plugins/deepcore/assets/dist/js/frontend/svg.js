@@ -1,0 +1,1 @@
+!function(n){function t(n,t){t(".wn-svg-wrap").each(function(){var n=t(this).data("svg");t(this).find("svg").attr("id",n),new Vivus(n,{type:"oneByOne",duration:60,start:"inViewport",animTimingFunction:Vivus.LINEAR})})}n(window).on("elementor/frontend/init",function(){elementorFrontend.hooks.addAction("frontend/element_ready/wsvg.default",t)})}(jQuery);

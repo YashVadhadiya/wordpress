@@ -1,0 +1,1 @@
+!function(c){c.fn.wnExpandable=function(e){var n=c.extend({id:0,selector:""},e);jQuery(document).on("click",n.selector,function(){jQuery(".wn-section-"+n.id+" .vc_section").slideToggle("slow")})}}(jQuery);

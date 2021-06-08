@@ -1,0 +1,75 @@
+
+a,
+body .wp-playlist-item-artist,
+.menu-toggle,
+.entry-title a span {
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.more-link,
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+body .wp-playlist-item {
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.portfolio-content-wrapper .entry-container {
+    -webkit-transition: 0.3s opacity ease-in-out;
+    -moz-transition: 0.3s opacity ease-in-out;
+    -o-transition: 0.3s opacity ease-in-out;
+    transition: 0.3s opacity ease-in-out;
+}
+
+.custom-header-media .wp-custom-header-video-button {
+    -webkit-transition: 0.3s background-color ease-in-out,
+                        0.3s color ease-in-out;
+    -moz-transition: 0.3s background-color ease-in-out,
+                     0.3s border-color ease-in-out,
+                     0.3s color ease-in-out;
+    -o-transition: 0.3s background-color ease-in-out,
+                   0.3s color ease-in-out;
+    transition: 0.3s background-color ease-in-out,
+                0.3s color ease-in-out;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    transition: 0.3s background-color ease-in-out,
+                0.3s border-color ease-in-out;
+}
+
+.team-content-wrapper .entry-container,
+body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrapper {
+    -webkit-transition: 0.3s padding ease-in-out;
+    -o-transition: 0.3s padding ease-in-out;
+    -moz-transition: 0.3s padding ease-in-out;
+    transition: 0.3s padding ease-in-out;
+}

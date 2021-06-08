@@ -1,0 +1,175 @@
+/**
+ * 7.3.5 - Events Section
+ */
+
+#events-section {
+	background-size: cover;
+}
+
+.events-section {
+	.hentry-inner {
+
+		.entry-container {
+			text-align: center;	
+			strong {
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+.style-one .events-content-wrapper .entry-meta,
+.style-one .events-content-wrapper .event-title {
+    margin-bottom: 14px;
+}
+
+.style-one .event-list-description .more-link {
+	&:hover,
+	&:focus {
+		background-color: transparent;
+	}
+}
+
+.style-one.events-section .hentry-inner {
+	padding: 35px;
+}
+
+.events-content-wrapper.section-content-wrapper .entry-summary,
+.events-content-wrapper.section-content-wrapper .entry-content {
+	margin-top: 0;
+}
+
+.events-content-wrapper {
+    margin: 0 auto;
+
+    .event-list-description {
+
+    	.event-title {
+    		flex: 0 1 36%;
+    	}
+
+    	.entry-title {
+    		flex-basis: 40%;
+    	}
+    }
+
+    .entry-summary {
+    	flex-basis: 60%;
+    	margin-top: 0;	
+
+    	p {
+    		flex-basis: 47%;
+    	}
+
+    	.more-link {
+    		display: inline-block;
+    		margin-top: 0;
+    	}
+    }
+}
+
+.style-one .events-content-wrapper .date-week-day {
+	line-height: 0.7;
+	margin-right: 18px;
+}
+
+.style-one .events-content-wrapper .entry-meta {
+	padding: 15px;
+	text-align: center;
+
+	.date-week-day {
+		margin: 0;
+	}
+}
+
+.style-two.events-section {
+	.hentry {
+		.hentry-inner {
+			.entry-container {
+				.entry-meta {
+					float: none;
+					width: auto;
+
+					.entry-date {
+						@include flex;
+						@include flex-align-center;
+
+						.date-week-day {
+							margin-right: 5px;
+							line-height: 1.45;
+						}
+					}
+
+					.date-month-year span {
+						display: inline-block;
+					}
+				}
+			}
+		}
+	} 
+}
+
+.events-article-wrapper .event-list-description ,
+.events-content-wrapper .entry-summary {
+    display: block;
+}
+
+.date-month-year span {
+    display: block;
+}
+
+.date-month-year .date-month {
+	font-weight: 600;
+}
+
+.events-content-wrapper .entry-header {
+	margin: 0;
+}
+
+.events-content-wrapper.section-content-wrapper .entry-title {
+	line-height: 1.46;
+}
+
+.events-content-wrapper .entry-meta a,
+.events-content-wrapper .entry-meta a:hover,
+.events-content-wrapper .entry-meta a:focus {
+	text-decoration: none;
+}
+
+.events-content-wrapper .entry-meta {
+	clear: both;
+	display: inline-block;
+	float: none;
+	padding: 0 4px;
+	width: 90px;
+}
+
+.events-content-wrapper .entry-date > span {
+	display: block;
+}
+
+.events-content-wrapper .date-month-year {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.events-content-wrapper .date-week-day {
+	font-size: 36px;
+	font-size: 2.25rem;
+	font-weight: 700;
+	line-height: 1.33333333333;
+}
+
+.style-one .events-content-wrapper .entry-meta  .date-week-day {
+	margin-bottom: 7px;
+}
+
+.style-two .events-content-wrapper .date-month-year .date-month {
+	font-weight: 400;
+}
+
+.style-two .events-content-wrapper .date-week-day {
+	font-weight: 400;
+}

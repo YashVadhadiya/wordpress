@@ -1,3 +1,34 @@
+v3.5.0
+- Fix: Aspect ratio is changed for YouTube embed block.
+- Fix: Spacing CSS missing when 'Inline Logo and Title' option is enabled.
+- Updated the theme screenshot.
+- Fix: JS Console error in blog/archive customizer settings.
+- Fix: WooCommerce - Product's Sale bubble appears on the header on scroll due to z-index.
+- Fix: Site Title and Tagline context not working properly for new Header Footer builder.
+- Fix: Version compare updated to v3.5.0 to support Site Title & Tagline pro color controls dependency.
+
+v3.5.0-beta.1
+- New: Related Posts - Option to change "Related Posts" title.
+- New: Related Posts - Alignment option for "Related Posts" title.
+- Improvement: Frontend optimization by reducing static CSS and loading it conditionally. (https://wpastra.com/astra-3-5/)
+- Improvement: Added Site Title & Tagline color options from Astra Pro to free theme.
+- Improvement: Builder - WooCommerce Cart & EDD Cart - Filter to change "Shopping Cart" text in responsive flyout. (https://wpastra.com/docs/update-mobile-cart-title/)
+- Improvement: Related Posts - Added responsive support to posts Grid Column Layout.
+- Improvement: Core Web Vital – Accessibility - always show aria-label attribute on builder social icons. (Props - https://github.com/tristanmason)
+- Improvement: Core Web Vital - Accessibility - Background and foreground colors do not have a sufficient contrast ratio.
+- Improvement: Increase max submenu width option value from 200 to 1920 same as the container.
+- Improvement: Added responsive control for 'Display Site Title' and 'Display Site Tagline' settings.
+- Fix: PHP error with Uncaught Error: Class 'Astra_Icons' not found in searchform.php when using plugin 'LearnDash Ratings Review Feedbacks'.
+- Fix: Added accessibility for search button of search form.
+- Fix: Text alignment issue for footer Widget 3 and Widget 4 when Astra Pro is deactivated.
+- Fix: Removed unwanted dividers from customizer setting sections.
+- Fix: Builder - WooCommerce & EDD cart - Duplicate transition CSS avoided in case normal Astra CSS icons.
+- Fix: WooCommerce - "Product Categories" widget's child elements have missing icon when Astra's SVGs enabled.
+- Fix: Footer Builder - Hide on mobile/tablet for above footer is not working on frontend.
+
+v3.4.8
+- Fix: Customizer not working when Gutenberg plugin v10.7.0 and above is active.
+
 v3.4.7
 - Updated the theme screenshot and added license information for the images used in the screenshot.
 
@@ -92,6 +123,7 @@ v3.3.0
 - Improvement: Frontend optimization - EDD - Shop Page, Single Product Page.
 - Improvement: Frontend optimization - LifterLMS - All Courses Page.
 - Improvement: Frontend optimization - LearnDash - All Courses Page, Single Course Page.
+- Improvement: Added AMP Meta in style.css. ( Props - https://github.com/milindmore22 )
 - Fix: White Label – White-labeled the Astra Header Footer setting notice.
 - Fix: WooCommerce - Single Product page - Save review form fields cookies consent is misaligned.
 - Fix: Builder - Off-Canvas - Close submenu toggle icon not changing in Mobile Menu element when the submenu is in the expanded state.

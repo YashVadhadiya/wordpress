@@ -1,0 +1,71 @@
+/*
+Theme Name: Signify Dark
+Description: Used to style Gutenberg Blocks.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Blocks - General Styles
+2.0 Blocks - Common Blocks
+3.0 Blocks - Formatting
+4.0 Blocks - Layout Elements
+5.0 Blocks - Widgets
+6.0 Blocks - Colors
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Blocks - General Styles
+--------------------------------------------------------------*/
+
+ th, 
+ .mce-item-table th, 
+ td, 
+ .mce-item-table td {
+ 	border-bottom: 0;
+ }
+
+/*--------------------------------------------------------------
+6.0 Blocks - Colors
+--------------------------------------------------------------*/
+.is-style-fill.wp-block-button .wp-block-button__link:hover,
+.is-style-fill.wp-block-button .wp-block-button__link:focus {
+	border-color: transparent;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link:hover,
+.is-style-fill.wp-block-button .wp-block-button__link:focus,
+.is-style-fill.wp-block-button .more-link:hover,
+.is-style-fill.wp-block-button .more-link:focus,
+.is-style-fill.wp-block-button .button:hover,
+.is-style-fill.wp-block-button .button:focus {
+	background-color: #fff;
+	color: #000;
+	border-color: #e6e6e6;
+}
+
+.is-style-outline.wp-block-button .wp-block-button__link,
+.is-style-outline.wp-block-button .more-link,
+.is-style-outline.wp-block-button .button {
+	border-color: #ffbf00;
+	background-color: transparent;
+	color: #fff;
+}
+
+.wp-block-table table, 
+.wp-block-table caption, 
+.wp-block-table th, 
+.wp-block-table td,
+.wp-block-table tr:first-child td {
+	border-color: #303030;
+}
+
+.is-style-outline.wp-block-button .wp-block-button__link:hover,
+.is-style-outline.wp-block-button .wp-block-button__link:focus,
+.is-style-outline.wp-block-button .more-link:hover,
+.is-style-outline.wp-block-button .more-link:focus,
+.is-style-outline.wp-block-button .button:hover,
+.is-style-outline.wp-block-button .button:focus {
+	background-color: #ffbf00;
+	color: #fff;
+}

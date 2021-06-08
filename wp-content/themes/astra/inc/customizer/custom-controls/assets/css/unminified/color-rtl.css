@@ -480,6 +480,8 @@
 }
 
 .ast-top-divider.customize-control-ast-toggle-control .ast-divider-title + .ast-togglecontrol-wrapper,
+.ast-bottom-divider.customize-control-ast-toggle-control .ast-divider-title + .ast-togglecontrol-wrapper,
+.ast-top-divider.customize-control-ast-responsive-toggle-control .ast-divider-title + .ast-responsive-toggle-control-wrapper,
 .ast-top-divider.customize-control-ast-responsive-color .ast-divider-title + .ast-control-wrap,
 .ast-top-divider.customize-control-ast-slider .ast-divider-title + .ast-slider-wrap,
 .customize-control-ast-color-group .ast-divider-title + .ast-control-wrap {

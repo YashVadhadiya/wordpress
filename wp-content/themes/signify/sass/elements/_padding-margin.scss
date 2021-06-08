@@ -1,0 +1,461 @@
+/**
+ * 3.4 - Padding/Margin
+ */
+
+.woocommerce-posts-wrapper ul.products {
+	margin: 0 -15px;
+}
+
+.menu-toggle {
+	padding: 17px;
+}
+
+.main-navigation a {
+	padding: 14px 0;
+}
+
+#collection-section .collection-wrapper .product-meta {
+	margin-top: 14px;
+}
+
+#collection-section .collection-wrapper .product_meta {
+	margin-bottom: 7px;
+}
+
+div#playlist-section .entry-content p:last-child {
+    margin-top: 35px;
+}
+
+.style-two.events-section .hentry-inner {
+    padding: 35px;
+}
+
+.style-two.events-section .hentry-inner .entry-summary,
+.style-two.events-section .hentry-inner .entry-content {
+    margin-top: 21px;
+}
+
+.style-two.events-section .hentry-inner .more-link {
+	display: inline-block;
+}
+
+
+nav#site-footer-navigation {
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+
+p {
+	margin-top: 0;
+}
+
+.singular-content-wrap .entry-content,
+.singular-content-wrap .entry-summary {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+#testimonial-content-section .entry-title {
+    margin-bottom: 0;
+}
+
+#contact-section .section-heading-wrapper {
+	padding: 0;
+	text-align: left;
+}
+
+#header-content .wrapper {
+	padding: 20px 30px;
+}
+
+body #playlist-section .wp-playlist {
+    margin-top: 21px;
+}
+
+.playlist-content-wrapper .wp-playlist .wp-playlist-current-item {
+	padding: 10px;
+}
+
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next {
+	padding: 7px 21px;
+}
+
+.site-content .wrapper > .sidebar {
+	margin-top: 42px;
+}
+
+.author-info {
+	padding: 35px;
+}
+
+.footer-widget-area {
+    padding: 21px 0 0;
+}
+
+.site-footer aside + #site-generator {
+    padding-top: 0;
+}
+
+.site-footer aside + #site-generator .social-navigation {
+	border-top: 0;
+}
+
+.team-content-wrapper .entry-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.widget-column {
+	padding: 21px 30px 7px;
+}
+
+.above-footer {
+	padding-top: 7px;
+}
+
+#content .archive-posts-wrapper .section-content-wrapper:not(.layout-one) #infinite-handle {
+	margin-top: 0;
+}
+
+.single .site-main .entry-header,
+.page .site-main .entry-header,
+.archive .page-header,
+.error404 .page-header,
+.search .page-header,
+.woocommerce-products-header {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.section.no-section-heading {
+	padding-top: 42px;
+}
+
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags {
+	margin: 0 0 35px;
+}
+
+.comments-area {
+    padding-top: 35px;
+}
+
+.author-avatar,
+.comments-title,
+.comment-reply-title {
+	margin: 0 0 24px;
+}
+
+.widget {
+    margin: 0 0 35px;
+}
+
+.sidebar .widget .widget-wrap {
+	padding: 30px;
+}
+
+.sidebar .widget:last-child {
+	.widget-wrap {
+		border-bottom: 0;
+	}
+}
+
+.widget .widget-title {
+	margin: 0 0 28px;
+}
+
+.content-area .section-heading-wrapper {
+	padding-top: 0;
+}
+
+.footer-contact {
+    margin-top: 42px;
+}
+
+.widget li {
+	margin-bottom: 7px;
+}
+
+.widget li > ul,
+.widget li > ol {
+	clear: both;
+	margin-top: 7px;
+	margin-left: 14px;
+}
+
+.section-content-wrapper,
+.main-image + .inner-section-content-wrapper,
+.signify-logo-slider-content-wrapper,
+.archive-posts-wrapper.section .recent-blog-content-wrapper {
+	padding: 0 30px;
+}
+
+.section-content-wrapper .post-thumbnail {
+	margin: 0 0 21px;
+}
+
+.signify-logo-slider-section .section-content-wrapper .post-thumbnail {
+	margin-bottom: 0;
+}
+
+.signify-logo-slider-section .section-content-wrapper .entry-title {
+	margin-bottom: 0;
+	margin-top: 21px;
+}
+
+.section-content-wrapper .entry-header  .entry-title + .entry-meta {
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+
+.section-content-wrapper .entry-header .entry-meta,
+.header-media-tagline {
+	margin-bottom: 7px;
+	margin-top: 0;
+}
+
+.featured-content-wrapper.section-content-wrapper .entry-header .entry-meta {
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+
+.archive-posts-wrapper .section-content-wrapper .entry-header .entry-title + .entry-meta {
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.archive-posts-wrapper .section-content-wrapper .entry-header .entry-meta {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.team-content-wrapper.section-content-wrapper .entry-meta {
+	margin-top: 7px;
+}
+
+.team-section.section.no-section-heading,
+#contact-section {
+	padding-top: 0;
+}
+
+.section-content-wrapper .entry-summary,
+.section-content-wrapper .entry-content,
+#contact-section .entry-content,
+#contact-section .entry-summary,
+.comment-content,
+.more-button {
+    margin-top: 21px;
+    width: 100%;
+}
+
+.section .entry-content .button,
+.section .entry-summary .button {
+	display: table;
+	margin-top: 21px;
+}
+
+.section .entry-content p p .button,
+.section .entry-summary p p .button {
+	margin-top: 0;
+}
+
+.section-content-wrapper .entry-container > :first-child {
+	margin-top: 0;
+}
+
+.section-content-wrapper .hentry-inner > :last-child,
+.section-content-wrapper .entry-container > :last-child {
+	margin-bottom: 0;
+}
+
+.woocommerce-posts-wrapper {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.singular-content-wrap .entry-header .entry-meta {
+	margin: 14 0 0 0;
+}
+
+.comments-area {
+	padding-top: 35px;
+}
+
+.more-link,
+.entry-content button,
+.entry-summary button {
+	clear: both;
+}
+
+/* New */
+.custom-header-content > :last-child,
+.singular-content-wrap >:last-child,
+.site-header-text > :last-child,
+#contact-section .hentry:last-child,
+.section-description-wrapper > :last-child,
+.taxonomy-description-wrapper > :last-child,
+.widget-area .widget .hentry:last-child,
+.widget-area .widget .hentry .entry-meta,
+.widget-area > :last-child,
+.widget > :last-child,
+.sidebar .widget:last-child,
+.widget li:last-child,
+.widget embed:last-child,
+.widget iframe:last-child,
+.widget object:last-child,
+.widget video:last-child,
+.entry-content > :last-child,
+.entry-summary > :last-child,
+.page-content > :last-child,
+.comment-content > :last-child,
+.textwidget > :last-child,
+.widget_nav_menu ul,
+#colophon .widget li:last-child,
+.section-description > :last-child,
+.section-subtitle > :last-child {
+	margin-bottom: 0;
+}
+
+.widget-area .ewfeaturedpostpageimage .featured-image {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.custom-logo {
+	margin: 0 auto;
+}
+
+.has-header-video .custom-header-content {
+	padding-bottom: 178px;
+}
+
+.widget-area .entry-meta {
+	margin-top: 0;
+}
+
+.taxonomy-description-wrapper {
+	margin-top: 7px;
+}
+
+#testimonial-content-section.has-post-thumbnail .entry-container {
+	padding: 84px 30px 42px;
+}
+
+.post-navigation div + div,
+.posts-navigation div + div {
+	margin-top: 30px;
+}
+
+.wp-caption .wp-caption-text {
+	padding: 7px 14px;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.posts-navigation a,
+#content #infinite-handle span button,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.header-media .more-link,
+#feature-slider-section .more-link,
+#hero-section .more-link,
+.promotion-section .more-link {
+	padding: 13px 27px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	padding: 12px 14px;
+}
+
+.above-footer {
+	padding-bottom: 0;
+}
+
+.sidebar .ewnewsletter .widget-inner-wrap {
+	padding: 0;
+}
+
+nav#site-footer-navigation {
+	padding: 21px 0;
+	padding-bottom: 0;
+}
+
+.archive-posts-wrapper .layout-one .hentry .hentry-inner {
+    padding-bottom: 42px;
+    padding-top: 7px;
+}
+
+#content #infinite-handle {
+	margin-top: 7px;
+}
+
+.site-footer-menu + .site-info .wrapper {
+	padding-bottom: 21px;
+	padding-top: 21px;
+}
+
+#testimonial-content-section .section-heading-wrapper {
+	padding-bottom: 35px;
+}
+
+.essential-widgets .entry-title {
+	margin: 0 0 7px 0;
+}
+
+.team-section {
+	.section-content-wrapper {
+		padding: 0;
+	}
+
+	.hentry {
+		padding: 0;
+	}
+}
+
+.header-style-two .site-header .site-header-main .wrapper {
+	padding: 15px 30px;
+}
+
+
+.header-style-two .site-header .site-header-main .wrapper {
+	padding-bottom: 28px;
+	padding-top: 28px;
+}
+
+.header-style-two .site-header {
+
+	#site-header-menu {
+		border: 0;
+
+		.main-navigation li a:before {
+			border: 0;
+		}
+	}
+}
+
+.color-scheme-education.header-style-two .site-header .site-header-main .wrapper {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.transparent-header-color-scheme:not(.header-media-text-disabled) #masthead + #feature-slider-section .hentry-inner,
+.transparent-header-color-scheme:not(.header-media-text-disabled) .custom-header {
+    padding-top: 96px;
+}

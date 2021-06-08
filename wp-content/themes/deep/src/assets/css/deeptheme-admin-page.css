@@ -1,0 +1,234 @@
+.deeptheme-admin-page {
+    background: #f3f7f9;
+    overflow: hidden;
+}
+
+.deeptheme-admin-header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 1px 10px -1px rgba(0,0,0,0.04);
+    border-bottom: 1px solid #e7e8e9;
+}
+
+.appearance_page_deep div#wpcontent {
+    padding-left: 0;
+}
+
+.deeptheme-admin-content ul {
+    margin: 0;
+}
+
+.deeptheme-admin-content p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #5c7a82;
+}
+
+.dp-admin-top-bar, .deeptheme-admin-content {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.dp-admin-top-title, .dp-admin-top-links {
+    display: inline-block;
+}
+
+.dp-admin-top-links {
+    float: right;
+}
+
+.dp-admin-top-title {
+    max-width: 50%;
+}
+
+.dp-admin-top-links a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 18px;
+    line-height: 3;
+    font-weight: 500;
+}
+
+.dp-admin-top-links a:hover {
+    text-decoration: underline;
+    color: #008aff;
+}
+
+.deeptheme-admin-content {
+    margin-top: 40px;
+}
+
+.deeptheme-plugin-notice {
+    padding: 0 120px 0 255px;
+    background: #DAF7FE url(../img/deep-admin-img.png) no-repeat 0 -21px;
+    background-size: 252px;
+    min-height: 184px;
+    border: 1px solid #c7e0e6;
+    border-left: 4px solid #008aff;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    box-shadow: 0 2px 7px -1px rgba(0,0,0,0.04);
+}
+
+.deeptheme-plugin-notice h2 {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0 15px;
+    color: #105fa2;
+}
+
+.deeptheme-plugin-notice a {
+    border-radius: 3px;
+    color: #fff;
+    background: #008aff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 7px 0 13px;
+    letter-spacing: 0.4px;
+    box-shadow: 0 1px 4px -2px #008aff;
+    transition: all 0.2s;
+}
+
+.deeptheme-plugin-notice a:hover {
+    background: #444;
+}
+
+.deeptheme-customizer-links, .deeptheme-more-options {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 7px -1px rgba(0,0,0,0.04);
+    margin-bottom: 25px;
+    border: 1px solid #e1e2e3;
+    overflow: hidden;
+}
+
+.deeptheme-customizer-links ul.customizer-links {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.deeptheme-customizer-links ul.customizer-links li {
+    width: 50%;
+}
+
+.deeptheme-customizer-links ul.customizer-links li, .pro-more-options li {
+    border-bottom: 1px solid #e7e8e9;
+    margin-bottom: 0;
+}
+
+.deeptheme-customizer-links ul.customizer-links li span {
+    font-size: 15px;
+    vertical-align: middle;
+    color: #5f5b5b;
+}
+
+.pro-more-options span {
+    float: right;
+    font-size: 12px;
+    padding-right: 3px;
+}
+
+.pro-more-options li a i {
+    font-size: 13px;
+    line-height: 1.6;
+    width: 15px;
+}
+
+.deeptheme-customizer-links ul.customizer-links li:hover a, .deeptheme-customizer-links ul.customizer-links li:hover span, .pro-more-options li:hover a {
+    color: #008aff;
+}
+
+.deeptheme-customizer-links ul.customizer-links li a {
+    display: block;
+    line-height: 1.6;
+    color: #4e4e4e;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 9px 13px;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.deeptheme-customizer-links ul.customizer-links li a span {
+    color: #cdd1d9;
+    font-size: 16px;
+}
+
+h2.deeptheme-admin-title i {
+    color: #b0b9cc;
+    margin-right: 3px;
+}
+
+.pro-more-options li a {
+    display: block;
+    line-height: 1.6;
+    color: #4e4e4e;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 9px 13px;
+    transition: all 0.2s ease;
+}
+
+h2.deeptheme-admin-title {
+    background: #fff;
+    padding: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid;
+    border-color: #e7e8e9;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    margin: 0;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.deeptheme-admin-right {
+    width: 28%;
+    float: right;
+    margin-left: 18px;
+}
+
+.deeptheme-admin-left {
+    width: 70%;
+    display: inline-block;
+}
+
+.deeptheme-r-admin {
+    background: #fff;
+    margin-bottom: 25px;
+    border: 1px solid #e1e2e3;
+    border-radius: 3px;
+    box-shadow: 0 2px 7px -1px rgba(0,0,0,0.04);
+}
+
+.deeptheme-r-admin h2 {
+    margin: 0 0 6px;
+    padding: 14px 15px;
+    border-bottom: 1px solid #e7e8e9;
+    font-size: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    line-height: 20px;
+}
+
+.deeptheme-r-admin p {
+    padding: 5px 12px 0;
+    font-size: 14px;
+}
+
+.deeptheme-r-admin h2 i {
+    color: #b0b9cc;
+}
+
+.deeptheme-admin-notice {
+    margin: 35px 25px 0 0;
+    position: relative;
+}

@@ -1,0 +1,1 @@
+!function(t){t(document).ready(function(){t(".comment-form").find("p").not(".form-submit").find("input,textarea").on("focus",function(){var n=t(this);t(".comment-form").find("p").removeClass("wn-active"),n.closest("p").addClass("wn-active wn-focus-active")})})}(jQuery);

@@ -1,0 +1,1 @@
+!function(o){o(document).ready(function(){o(".post-slider-widget ul").owlCarousel({loop:!1,nav:!1,items:1})})}(jQuery);

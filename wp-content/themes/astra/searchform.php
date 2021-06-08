@@ -14,8 +14,8 @@
 	<label>
 		<span class="screen-reader-text"><?php echo esc_html__( 'Search for:', 'astra' ); ?></span>
 		<input type="search" class="search-field" placeholder="<?php echo esc_html( astra_default_strings( 'string-search-input-placeholder', false ) ); ?>" value="" name="s">
-		<?php if ( Astra_Icons::is_svg_icons() ) { ?>
-			<button class="search-submit">
+		<?php if ( class_exists( 'Astra_Icons' ) && Astra_Icons::is_svg_icons() ) { ?>
+			<button class="search-submit" aria-label="<?php echo esc_attr__( 'Search Submit', 'astra' ); ?>">
 				<span hidden><?php echo esc_html__( 'Search', 'astra' ); ?></span>
 				<i><?php Astra_Icons::get_icons( 'search', true ); ?></i>
 			</button>

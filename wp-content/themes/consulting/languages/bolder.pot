@@ -1,0 +1,2103 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Consulting\n"
+"POT-Creation-Date: 2016-08-31 12:53+0100\n"
+"PO-Revision-Date: 2016-08-31 12:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11
+msgid "404"
+msgstr ""
+
+#: 404.php:12
+msgid "Sorry, we could not find the page you are looking for."
+msgstr ""
+
+#: 404.php:12
+msgid "Please try using the search function."
+msgstr ""
+
+#: admin/main/core/enqueue.php:449
+#: admin/main/inc/extensions/customizer/extension_customizer.php:535
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: admin/main/core/enqueue.php:457
+#: admin/main/inc/extensions/customizer/extension_customizer.php:536
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: admin/main/core/enqueue.php:465
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: admin/main/core/enqueue.php:473
+#: admin/main/inc/extensions/customizer/extension_customizer.php:537
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/main/core/enqueue.php:480
+msgid "Please Wait"
+msgstr ""
+
+#: admin/main/core/enqueue.php:491
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: admin/main/core/enqueue.php:492
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: admin/main/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: admin/main/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: admin/main/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: admin/main/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: admin/main/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: admin/main/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: admin/main/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: admin/main/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: admin/main/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: admin/main/framework.php:268
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: admin/main/framework.php:268
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/main/framework.php:272 admin/main/framework.php:276
+msgid "Options"
+msgstr ""
+
+#: admin/main/framework.php:2404
+msgid "Enable"
+msgstr ""
+
+#: admin/main/framework.php:2409
+msgid "Disable"
+msgstr ""
+
+#: admin/main/framework.php:2415
+msgid "moving the mouse over"
+msgstr ""
+
+#: admin/main/framework.php:2417
+msgid "clicking"
+msgstr ""
+
+#: admin/main/framework.php:2421
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: admin/main/framework.php:2426
+msgid "Hints"
+msgstr ""
+
+#: admin/main/framework.php:2553
+msgid "Default"
+msgstr ""
+
+#: admin/main/framework.php:3425
+msgid "Invalid security credential, please reload the page and try again."
+msgstr ""
+
+#: admin/main/framework.php:3512
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: admin/main/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: admin/main/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: admin/main/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to bypass the "
+"our CDN and avoid this warning"
+msgstr ""
+
+#: admin/main/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: admin/main/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: admin/main/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: admin/main/inc/class.redux_filesystem.php:31
+#: admin/main/inc/class.redux_filesystem.php:60
+#: admin/main/inc/class.redux_filesystem.php:254
+msgid "File Permission Issues"
+msgstr ""
+
+#: admin/main/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: admin/main/inc/class.redux_filesystem.php:60
+#: admin/main/inc/class.redux_filesystem.php:254
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: admin/main/inc/class.redux_helpers.php:441
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/extension_customizer.php:563
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/extension_customizer.php:564
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/extension_customizer.php:565
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/inc/customizer_panel.php:89
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/inc/customizer_panel.php:114
+#: admin/main/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/inc/customizer_panel.php:138
+#: admin/main/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/inc/customizer_panel.php:146
+msgid "Help"
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: admin/main/inc/extensions/customizer/inc/customizer_section.php:122
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:93
+msgid "Import from File"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:93
+msgid "Import from URL"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:96
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:102
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:107
+msgid "Import"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:107
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid "Export Options"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:114
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:121
+msgid "Copy Data"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:122
+msgid "Download Data File"
+msgstr ""
+
+#: admin/main/inc/extensions/import_export/import_export/field_import_export.php:123
+msgid "Copy Export URL"
+msgstr ""
+
+#: admin/main/inc/extensions/options_object/extension_options_object.php:82
+#: admin/main/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: admin/main/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:124
+#: admin/main/inc/fields/color/field_color.php:73
+#: admin/main/inc/fields/color_gradient/field_color_gradient.php:79
+#: admin/main/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:277
+#: admin/main/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:314
+#: admin/main/inc/fields/media/field_media.php:198
+#: admin/main/inc/fields/slides/field_slides.php:126
+#: admin/main/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: admin/main/inc/fields/background/field_background.php:321
+#: admin/main/inc/fields/media/field_media.php:205
+#: admin/main/inc/fields/multi_text/field_multi_text.php:69
+#: admin/main/inc/fields/multi_text/field_multi_text.php:73
+#: admin/main/inc/fields/multi_text/field_multi_text.php:76
+#: admin/main/inc/fields/slides/field_slides.php:133
+#: admin/main/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: admin/main/inc/fields/border/field_border.php:125
+#: admin/main/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: admin/main/inc/fields/border/field_border.php:138
+#: admin/main/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: admin/main/inc/fields/border/field_border.php:145
+#: admin/main/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: admin/main/inc/fields/border/field_border.php:152
+#: admin/main/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: admin/main/inc/fields/border/field_border.php:159
+#: admin/main/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: admin/main/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: admin/main/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: admin/main/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: admin/main/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: admin/main/inc/fields/dimensions/field_dimensions.php:178
+#: admin/main/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: admin/main/inc/fields/dimensions/field_dimensions.php:189
+#: admin/main/inc/fields/dimensions/field_dimensions.php:190
+#: admin/main/inc/fields/spacing/field_spacing.php:245
+#: admin/main/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: admin/main/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: admin/main/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: admin/main/inc/fields/link_color/field_link_color.php:87
+msgid "Regular"
+msgstr ""
+
+#: admin/main/inc/fields/link_color/field_link_color.php:91
+msgid "Hover"
+msgstr ""
+
+#: admin/main/inc/fields/link_color/field_link_color.php:95
+msgid "Visited"
+msgstr ""
+
+#: admin/main/inc/fields/link_color/field_link_color.php:99
+msgid "Active"
+msgstr ""
+
+#: admin/main/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: admin/main/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: admin/main/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: admin/main/inc/fields/select/field_select.php:83
+#: admin/main/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: admin/main/inc/fields/select/field_select.php:134
+#: admin/main/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: admin/main/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: admin/main/inc/fields/slides/field_slides.php:73
+#: admin/main/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: admin/main/inc/fields/slides/field_slides.php:145
+#: admin/main/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: admin/main/inc/fields/slides/field_slides.php:149
+#: admin/main/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: admin/main/inc/fields/slides/field_slides.php:153
+#: admin/main/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: admin/main/inc/fields/slides/field_slides.php:167
+#: admin/main/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: admin/main/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: admin/main/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: admin/main/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:258
+#: admin/main/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:273
+#: admin/main/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:342
+#: admin/main/inc/fields/typography/field_typography.php:343
+#: admin/main/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:365
+#: admin/main/inc/fields/typography/field_typography.php:366
+#: admin/main/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:388
+#: admin/main/inc/fields/typography/field_typography.php:389
+#: admin/main/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:408
+#: admin/main/inc/fields/typography/field_typography.php:409
+#: admin/main/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:432
+#: admin/main/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:441
+#: admin/main/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:450
+#: admin/main/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:459
+#: admin/main/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: admin/main/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/embedded.php:31
+msgid "Optional"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/embedded.php:33
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: admin/main/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: admin/main/inc/validation/color/validation_color.php:15
+#: admin/main/inc/validation/color_rgba/validation_color_rgba.php:14
+#: admin/main/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: admin/main/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: admin/main/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: admin/main/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: admin/main/inc/validation/email/validation_email.php:16
+#: admin/main/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: admin/main/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: admin/main/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: admin/main/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: admin/main/inc/validation/numeric/validation_numeric.php:16
+#: admin/main/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: admin/main/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: admin/main/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: admin/main/options.php:77 admin/main/options.php:78
+#: admin/main/options.php:297
+msgid "Theme Options"
+msgstr ""
+
+#: admin/main/options.php:299
+msgid "Use the options below to customize your theme!"
+msgstr ""
+
+#: admin/main/options.php:325
+msgid "General Settings"
+msgstr ""
+
+#: admin/main/options.php:326
+msgid "Welcome to the Simple Options Framework Demo"
+msgstr ""
+
+#: admin/main/options.php:327
+msgid "<span class=\"redux-title\">Logo</span>"
+msgstr ""
+
+#: admin/main/options.php:335 admin/main/options.php:336
+msgid ""
+"Since WordPress v4.5 you can now add a site logo using the native WordPress "
+"options. To add a site logo go the \"Site Identitiy\" settings on the main "
+"customizer screen."
+msgstr ""
+
+#: admin/main/options.php:345 admin/main/options.php:406
+#: admin/main/options.php:479 admin/main/options.php:569
+#: admin/main/options.php:852 admin/main/options.php:944
+#: admin/main/options.php:1326
+msgid " "
+msgstr ""
+
+#: admin/main/options.php:346
+msgid "<span class=\"redux-title\">Page Structure</span>"
+msgstr ""
+
+#: admin/main/options.php:351
+msgid "Page Layout"
+msgstr ""
+
+#: admin/main/options.php:352 admin/main/options.php:353
+msgid ""
+"Select page layout. This will only be applied to published Pages (I.e. Not "
+"posts, blog or home)."
+msgstr ""
+
+#: admin/main/options.php:365 admin/main/options.php:463
+#: admin/main/options.php:1297 admin/main/options.php:1346
+msgid "Select a Sidebar"
+msgstr ""
+
+#: admin/main/options.php:366 admin/main/options.php:367
+msgid "Choose a sidebar to use with the page layout."
+msgstr ""
+
+#: admin/main/options.php:379
+msgid "Enable Fixed Layout"
+msgstr ""
+
+#: admin/main/options.php:380 admin/main/options.php:381
+msgid "Check to enable fixed layout.<br />(i.e. Disable responsive layout)"
+msgstr ""
+
+#: admin/main/options.php:387
+msgid "Intro - Background Color"
+msgstr ""
+
+#: admin/main/options.php:388 admin/main/options.php:389
+msgid "Select a custom color to use as background."
+msgstr ""
+
+#: admin/main/options.php:396
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: admin/main/options.php:397 admin/main/options.php:398
+msgid "Switch on to enable breadcrumbs."
+msgstr ""
+
+#: admin/main/options.php:407
+msgid "<span class=\"redux-title\">Custom Code</span>"
+msgstr ""
+
+#: admin/main/options.php:412
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/main/options.php:413 admin/main/options.php:414
+msgid ""
+"Developers can use this to apply custom css. Use this to control, by styling "
+"of any element on the webpage by targeting id&#39;s and classes."
+msgstr ""
+
+#: admin/main/options.php:422 admin/main/options.php:423
+msgid "Custom Code"
+msgstr ""
+
+#: admin/main/options.php:440
+msgid "Homepage"
+msgstr ""
+
+#: admin/main/options.php:441
+msgid "<span class=\"redux-title\">Control Homepage Layout</span>"
+msgstr ""
+
+#: admin/main/options.php:449
+msgid "Homepage Layout"
+msgstr ""
+
+#: admin/main/options.php:450 admin/main/options.php:451
+msgid ""
+"Select page layout. This will only be applied to static homepages (front "
+"page) and not to homepage blogs."
+msgstr ""
+
+#: admin/main/options.php:464 admin/main/options.php:465
+#: admin/main/options.php:1347 admin/main/options.php:1348
+msgid "Choose a sidebar to use with the layout."
+msgstr ""
+
+#: admin/main/options.php:480
+msgid "<span class=\"redux-title\">Homepage Slider</span>"
+msgstr ""
+
+#: admin/main/options.php:485
+msgid "Choose Homepage Slider"
+msgstr ""
+
+#: admin/main/options.php:486 admin/main/options.php:487
+msgid "Switch on to enable home page slider."
+msgstr ""
+
+#: admin/main/options.php:497 admin/main/options.php:498
+msgid "Slide 1 - Content (image, title, except, url)"
+msgstr ""
+
+#: admin/main/options.php:510 admin/main/options.php:511
+msgid "Slide 2 - Content (image, title, except, url)"
+msgstr ""
+
+#: admin/main/options.php:523 admin/main/options.php:524
+msgid "Slide 3 - Content (image, title, except, url)"
+msgstr ""
+
+#: admin/main/options.php:537
+msgid "Enable Full-Width Slider"
+msgstr ""
+
+#: admin/main/options.php:538 admin/main/options.php:539
+msgid "Switch on to enable full-width slider."
+msgstr ""
+
+#: admin/main/options.php:552
+msgid "Slider Height (Max)"
+msgstr ""
+
+#: admin/main/options.php:553 admin/main/options.php:554
+msgid "Specify the maximum slider height (px)."
+msgstr ""
+
+#: admin/main/options.php:570
+msgid "<span class=\"redux-title\">Call To Action - Intro</span>"
+msgstr ""
+
+#: admin/main/options.php:575
+msgid "Message"
+msgstr ""
+
+#: admin/main/options.php:576
+msgid "Check to enable intro on home page."
+msgstr ""
+
+#: admin/main/options.php:582 admin/main/options.php:583
+msgid ""
+"Enter a <strong>title</strong> message.<br /><br />This will be one of the "
+"first messages your visitors see. Use this to get their attention."
+msgstr ""
+
+#: admin/main/options.php:590 admin/main/options.php:591
+msgid ""
+"Enter a <strong>teaser</strong> message. <br /><br />Use this to provide "
+"more details about what you offer."
+msgstr ""
+
+#: admin/main/options.php:598
+msgid "Button - Text"
+msgstr ""
+
+#: admin/main/options.php:599 admin/main/options.php:600
+msgid "Specify a text for button 1."
+msgstr ""
+
+#: admin/main/options.php:607
+msgid "Button - Link"
+msgstr ""
+
+#: admin/main/options.php:608 admin/main/options.php:609
+msgid ""
+"Specify whether the action button should link to a page on your site, out to "
+"external webpage or disable the link altogether."
+msgstr ""
+
+#: admin/main/options.php:620
+msgid "Button - Link to a page"
+msgstr ""
+
+#: admin/main/options.php:621 admin/main/options.php:622
+msgid "Select a target page for action button link."
+msgstr ""
+
+#: admin/main/options.php:634
+msgid "Button - Custom link"
+msgstr ""
+
+#: admin/main/options.php:635 admin/main/options.php:636
+msgid ""
+"Input a custom url for the action button link.<br>Add http:// if linking to "
+"an external webpage."
+msgstr ""
+
+#: admin/main/options.php:655
+msgid "Homepage (Featured)"
+msgstr ""
+
+#: admin/main/options.php:656
+msgid "<span class=\"redux-title\">Display Pre-Designed Homepage Layout</span>"
+msgstr ""
+
+#: admin/main/options.php:664
+msgid "Enable Pre-Made Homepage "
+msgstr ""
+
+#: admin/main/options.php:665 admin/main/options.php:666
+msgid "switch on to enable pre-designed homepage layout."
+msgstr ""
+
+#: admin/main/options.php:673
+msgid "Content Area 1"
+msgstr ""
+
+#: admin/main/options.php:674 admin/main/options.php:723
+#: admin/main/options.php:772
+msgid "Choose an icon for the section background."
+msgstr ""
+
+#: admin/main/options.php:686 admin/main/options.php:735
+#: admin/main/options.php:784
+msgid "Add a title to the section."
+msgstr ""
+
+#: admin/main/options.php:698
+msgid "Add some text to featured section 1."
+msgstr ""
+
+#: admin/main/options.php:710 admin/main/options.php:759
+#: admin/main/options.php:808
+msgid "Link to a page"
+msgstr ""
+
+#: admin/main/options.php:722
+msgid "Content Area 2"
+msgstr ""
+
+#: admin/main/options.php:747
+msgid "Add some text to featured section 2."
+msgstr ""
+
+#: admin/main/options.php:771
+msgid "Content Area 3"
+msgstr ""
+
+#: admin/main/options.php:796
+msgid "Add some text to featured section 3."
+msgstr ""
+
+#: admin/main/options.php:826
+msgid "Header"
+msgstr ""
+
+#: admin/main/options.php:827
+msgid "<span class=\"redux-title\">Header Style</span>"
+msgstr ""
+
+#: admin/main/options.php:835
+msgid "Logo Overflow"
+msgstr ""
+
+#: admin/main/options.php:836
+msgid "Check to let logo overflow the header container."
+msgstr ""
+
+#: admin/main/options.php:842
+msgid "Sticky Header"
+msgstr ""
+
+#: admin/main/options.php:843 admin/main/options.php:844
+msgid "Switch on to fix header to top of page."
+msgstr ""
+
+#: admin/main/options.php:853
+msgid "<span class=\"redux-title\">Control Header Content</span>"
+msgstr ""
+
+#: admin/main/options.php:858
+msgid "Enable Search (Main Header)"
+msgstr ""
+
+#: admin/main/options.php:859 admin/main/options.php:860
+msgid "Switch on to enable header search."
+msgstr ""
+
+#: admin/main/options.php:873
+msgid "Footer"
+msgstr ""
+
+#: admin/main/options.php:874
+msgid "<span class=\"redux-title\">Control Footer Content</span>"
+msgstr ""
+
+#: admin/main/options.php:882
+msgid "Footer Widgets Layout"
+msgstr ""
+
+#: admin/main/options.php:883 admin/main/options.php:884
+msgid ""
+"Select footer layout. Take complete control of the footer content by adding "
+"widgets."
+msgstr ""
+
+#: admin/main/options.php:911
+msgid "Disable Footer Widgets"
+msgstr ""
+
+#: admin/main/options.php:912
+msgid "Check to disable footer widgets."
+msgstr ""
+
+#: admin/main/options.php:925
+msgid "Social Media"
+msgstr ""
+
+#: admin/main/options.php:926
+msgid "<span class=\"redux-title\">Social Media Control</span>"
+msgstr ""
+
+#: admin/main/options.php:934
+msgid "Enable Social Media Links (Pre Header)"
+msgstr ""
+
+#: admin/main/options.php:935 admin/main/options.php:936
+msgid "Switch on to enable links to social media pages."
+msgstr ""
+
+#: admin/main/options.php:945
+msgid "<span class=\"redux-title\">Social Media Content</span>"
+msgstr ""
+
+#: admin/main/options.php:950
+msgid "Display Message"
+msgstr ""
+
+#: admin/main/options.php:951 admin/main/options.php:952
+msgid ""
+"Add a message here. E.g. &#34;Follow Us&#34;.<br />(Only shown in header)"
+msgstr ""
+
+#: admin/main/options.php:960 admin/main/options/03.header.php:481
+msgid "Facebook"
+msgstr ""
+
+#: admin/main/options.php:961 admin/main/options.php:962
+msgid "Enable link to Facebook profile."
+msgstr ""
+
+#: admin/main/options.php:968
+msgid ""
+"Input the url to your Facebook page. <strong>Note:</strong> Add http:// as "
+"the url is an external link."
+msgstr ""
+
+#: admin/main/options.php:980
+msgid "Use Custom Facebook Icon"
+msgstr ""
+
+#: admin/main/options.php:991 admin/main/options.php:1035
+#: admin/main/options.php:1079 admin/main/options.php:1123
+#: admin/main/options.php:1167 admin/main/options.php:1211
+#: admin/main/options.php:1255
+msgid ""
+"Add a link to the image or upload one from your desktop. The image will be "
+"resized."
+msgstr ""
+
+#: admin/main/options.php:1004 admin/main/options/03.header.php:482
+msgid "Twitter"
+msgstr ""
+
+#: admin/main/options.php:1005 admin/main/options.php:1006
+msgid "Enable link to Twitter profile."
+msgstr ""
+
+#: admin/main/options.php:1012
+msgid ""
+"Input the url to your Twitter page. <strong>Note:</strong> Add http:// as "
+"the url is an external link."
+msgstr ""
+
+#: admin/main/options.php:1024
+msgid "Use Custom Twitter Icon"
+msgstr ""
+
+#: admin/main/options.php:1048 admin/main/options/03.header.php:483
+msgid "Google+"
+msgstr ""
+
+#: admin/main/options.php:1049 admin/main/options.php:1050
+msgid "Enable link to Google+ profile."
+msgstr ""
+
+#: admin/main/options.php:1056
+msgid ""
+"Input the url to your Google+ page. <strong>Note:</strong> Add http:// as "
+"the url is an external link."
+msgstr ""
+
+#: admin/main/options.php:1068
+msgid "Use Custom Google+ Icon"
+msgstr ""
+
+#: admin/main/options.php:1092 admin/main/options/03.header.php:484
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/main/options.php:1093 admin/main/options.php:1094
+msgid "Enable link to LinkedIn profile."
+msgstr ""
+
+#: admin/main/options.php:1100
+msgid ""
+"Input the url to your LinkedIn page. <strong>Note:</strong> Add http:// as "
+"the url is an external link."
+msgstr ""
+
+#: admin/main/options.php:1112
+msgid "Use Custom LinkedIn Icon"
+msgstr ""
+
+#: admin/main/options.php:1136 admin/main/options/03.header.php:485
+msgid "Flickr"
+msgstr ""
+
+#: admin/main/options.php:1137 admin/main/options.php:1138
+msgid "Enable link to Flickr profile."
+msgstr ""
+
+#: admin/main/options.php:1144
+msgid ""
+"Input the url to your Flickr page. <strong>Note:</strong> Add http:// as the "
+"url is an external link."
+msgstr ""
+
+#: admin/main/options.php:1156
+msgid "Use Custom Flickr Icon"
+msgstr ""
+
+#: admin/main/options.php:1180 admin/main/options/03.header.php:486
+msgid "YouTube"
+msgstr ""
+
+#: admin/main/options.php:1181 admin/main/options.php:1182
+msgid "Enable link to YouTube profile."
+msgstr ""
+
+#: admin/main/options.php:1188
+msgid ""
+"Input the url to your YouTube page. <strong>Note:</strong> Add http:// as "
+"the url is an external link."
+msgstr ""
+
+#: admin/main/options.php:1200
+msgid "Use Custom YouTube Icon"
+msgstr ""
+
+#: admin/main/options.php:1224 admin/main/options/03.header.php:487
+msgid "RSS"
+msgstr ""
+
+#: admin/main/options.php:1225 admin/main/options.php:1226
+msgid "Enable link to RSS profile."
+msgstr ""
+
+#: admin/main/options.php:1232
+msgid ""
+"Input the url to your RSS page. <strong>Note:</strong> Add http:// as the "
+"url is an external link."
+msgstr ""
+
+#: admin/main/options.php:1244
+msgid "Use Custom RSS Icon"
+msgstr ""
+
+#: admin/main/options.php:1274 admin/main/options/00.theme-setup.php:39
+#: admin/main/options/00.theme-setup.php:127
+msgid "Blog"
+msgstr ""
+
+#: admin/main/options.php:1275
+msgid "<span class=\"redux-title\">Control Blog (Archive) Pages</span>"
+msgstr ""
+
+#: admin/main/options.php:1283
+msgid "Blog Layout"
+msgstr ""
+
+#: admin/main/options.php:1284 admin/main/options.php:1285
+msgid ""
+"Select blog page layout. Only applied to the main blog page and not "
+"individual posts."
+msgstr ""
+
+#: admin/main/options.php:1298 admin/main/options.php:1299
+msgid ""
+"<strong>Note:</strong> Sidebars will not be applied to homepage Blog. "
+"Control sidebars on the homepage from the &#39;Home Settings&#39; option."
+msgstr ""
+
+#: admin/main/options.php:1311
+msgid "Post Content"
+msgstr ""
+
+#: admin/main/options.php:1312 admin/main/options.php:1313
+msgid ""
+"Control how much content you want to show from each post on the main blog "
+"page. Remember to control the full article content by using the Wordpress <a "
+"href=\"http://en.support.wordpress.com/splitting-content/more-tag/\">more</"
+"a> tag in your post."
+msgstr ""
+
+#: admin/main/options.php:1327
+msgid "<span class=\"redux-title\">Control Single Post Page</span>"
+msgstr ""
+
+#: admin/main/options.php:1332
+msgid "Post Layout"
+msgstr ""
+
+#: admin/main/options.php:1333 admin/main/options.php:1334
+msgid ""
+"Select blog page layout. This will only be applied to individual posts and "
+"not the main blog page."
+msgstr ""
+
+#: admin/main/options.php:1360
+msgid "Show Author Bio"
+msgstr ""
+
+#: admin/main/options.php:1361 admin/main/options.php:1362
+msgid "Check to enable the author biography."
+msgstr ""
+
+#: admin/main/options.php:1375
+msgid "Support"
+msgstr ""
+
+#: admin/main/options.php:1376
+msgid ""
+"For premium support direct from the theme developers, or advice on "
+"customizations please <a href=\"https://www.thinkupthemes.com/themes/consulting/"
+"\" target=\"_blank\">upgrade</a> to Consulting Pro or purchase a <a href="
+"\"http://www.thinkupthemes.com/pricing/\" target=\"_blank\">Theme "
+"Subscription</a>."
+msgstr ""
+
+#: admin/main/options.php:1393
+#, php-format
+msgid "Upgrade (10% off)"
+msgstr ""
+
+#: admin/main/options/00.theme-setup.php:27
+#: admin/main/options/00.theme-setup.php:31
+#: admin/main/options/00.theme-setup.php:41
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: admin/main/options/00.theme-setup.php:29
+msgid "Blog Post Image: "
+msgstr ""
+
+#: admin/main/options/00.theme-setup.php:33
+msgid "Search Results: "
+msgstr ""
+
+#: admin/main/options/00.theme-setup.php:35
+msgid "Page Not Found"
+msgstr ""
+
+#: admin/main/options/00.theme-setup.php:59
+msgid "Home"
+msgstr ""
+
+#: admin/main/options/00.theme-setup.php:110
+msgid "Search Results for: "
+msgstr ""
+
+#: admin/main/options/00.theme-setup.php:123
+msgid "Error 404 - Not Found."
+msgstr ""
+
+#: admin/main/options/00.theme-setup.php:282
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:97
+msgid "Slider Image"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:132
+msgid "READ MORE"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:163
+#: admin/main/options/02.homepage.php:164
+#: admin/main/options/02.homepage.php:165
+msgid "Demo Image"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:237
+msgid "fa fa-thumbs-up"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:238
+msgid "fa fa-desktop"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:239
+msgid "fa fa-gears"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:242
+msgid "Perfect For All"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:243
+msgid "100% Responsive"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:244
+msgid "Powerful Framework"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:248
+msgid ""
+"Consulting is the perfect choice for any website. Easy to use, stunning design "
+"and packed with awesome features. Create something amazing!"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:251
+msgid ""
+"Consulting is 100% mobile responsive. It looks great on all devices, from from "
+"mobiles to desktops, and everything in between!"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:254
+msgid ""
+"Get a taste the awesome ThinkUpThemes Framework. Make changes without ever "
+"touching any code! Beautiful and powerful!"
+msgstr ""
+
+#: admin/main/options/02.homepage.php:285
+#: admin/main/options/02.homepage.php:302
+#: admin/main/options/02.homepage.php:320
+#: admin/main/options/02.homepage.php:363 admin/main/options/05.blog.php:193
+msgid "Read More"
+msgstr ""
+
+#: admin/main/options/04.footer.php:17 admin/main/options/04.footer.php:32
+#: admin/main/options/04.footer.php:47 admin/main/options/04.footer.php:62
+#: admin/main/options/04.footer.php:77 admin/main/options/04.footer.php:92
+#: sidebar.php:16
+msgid "Please Add Widgets"
+msgstr ""
+
+#: admin/main/options/04.footer.php:19
+msgid "Remove this message by adding widgets to Footer Widget Area 1."
+msgstr ""
+
+#: admin/main/options/04.footer.php:20 admin/main/options/04.footer.php:35
+#: admin/main/options/04.footer.php:50 admin/main/options/04.footer.php:65
+#: admin/main/options/04.footer.php:80 admin/main/options/04.footer.php:95
+#: sidebar.php:19
+msgid "No Widgets Selected"
+msgstr ""
+
+#: admin/main/options/04.footer.php:20 admin/main/options/04.footer.php:35
+#: admin/main/options/04.footer.php:50 admin/main/options/04.footer.php:65
+#: admin/main/options/04.footer.php:80 admin/main/options/04.footer.php:95
+#: sidebar.php:19
+msgid "Click here to go to Widget area."
+msgstr ""
+
+#: admin/main/options/04.footer.php:34
+msgid "Remove this message by adding widgets to Footer Widget Area 2."
+msgstr ""
+
+#: admin/main/options/04.footer.php:49
+msgid "Remove this message by adding widgets to Footer Widget Area 3."
+msgstr ""
+
+#: admin/main/options/04.footer.php:64
+msgid "Remove this message by adding widgets to Footer Widget Area 4."
+msgstr ""
+
+#: admin/main/options/04.footer.php:79
+msgid "Remove this message by adding widgets to Footer Widget Area 5."
+msgstr ""
+
+#: admin/main/options/04.footer.php:94
+msgid "Remove this message by adding widgets to Footer Widget Area 6."
+msgstr ""
+
+#: admin/main/options/04.footer.php:234
+#, php-format
+msgid "Developed by %1$s. Powered by %2$s."
+msgstr ""
+
+#: admin/main/options/05.blog.php:48 content.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: admin/main/options/05.blog.php:127
+msgid "Sticky"
+msgstr ""
+
+#: admin/main/options/05.blog.php:135
+#, php-format
+msgid ""
+"<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\"><time datetime=\"%3$s\">"
+"%4$s</time></a></span>"
+msgstr ""
+
+#: admin/main/options/05.blog.php:149
+msgid ""
+"<span class=\"comment-count\">0</span> <span class=\"comment-text"
+"\">Comments</span>"
+msgstr ""
+
+#: admin/main/options/05.blog.php:149
+msgid ""
+"<span class=\"comment-count\">1</span> <span class=\"comment-text\">Comment</"
+"span>"
+msgstr ""
+
+#: admin/main/options/05.blog.php:149
+msgid ""
+"<span class=\"comment-count\">%</span> <span class=\"comment-text"
+"\">Comments</span>"
+msgstr ""
+
+#: admin/main/options/05.blog.php:157 admin/main/options/05.blog.php:168
+msgid ", "
+msgstr ""
+
+#: admin/main/options/05.blog.php:161 admin/main/options/05.blog.php:172
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: admin/main/options/05.blog.php:179
+#, php-format
+msgid ""
+"<span class=\"author\"><a href=\"%1$s\" title=\"%2$s\" rel=\"author\">%3$s</"
+"a></span>"
+msgstr ""
+
+#: admin/main/options/05.blog.php:181
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: admin/main/options/05.blog.php:347
+msgid "Pingback:"
+msgstr ""
+
+#: admin/main/options/05.blog.php:347 admin/main/options/05.blog.php:371
+msgid "Edit"
+msgstr ""
+
+#: admin/main/options/05.blog.php:361
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: admin/main/templates/panel/footer.tpl.php:50
+#: admin/main/templates/panel/header_stickybar.tpl.php:20
+msgid "Save Changes"
+msgstr ""
+
+#: admin/main/templates/panel/footer.tpl.php:54
+#: admin/main/templates/panel/header_stickybar.tpl.php:24
+msgid "Reset Section"
+msgstr ""
+
+#: admin/main/templates/panel/footer.tpl.php:55
+#: admin/main/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset All"
+msgstr ""
+
+#: admin/main/templates/panel/footer.tpl.php:60
+#: admin/main/templates/panel/header_stickybar.tpl.php:28
+msgid "Working..."
+msgstr ""
+
+#: admin/main/templates/panel/header.tpl.php:11
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: admin/main/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: admin/main/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: admin/main/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: admin/main/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: admin/main/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: admin/main/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: archive.php:46 search.php:20
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: archive.php:47 search.php:21
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: comments.php:23
+#, php-format
+msgid "<span>1</span> Comments  "
+msgid_plural "<span>%1$s</span> Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:32 comments.php:43
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:33 comments.php:44
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:66
+msgid "Submit Now"
+msgstr ""
+
+#: comments.php:67
+msgid "Leave Comment"
+msgstr ""
+
+#: comments.php:71
+msgid "Your Message..."
+msgstr ""
+
+#: comments.php:76
+msgid "Your Name (Required)..."
+msgstr ""
+
+#: comments.php:80
+msgid "Your Email (Required)..."
+msgstr ""
+
+#: comments.php:84
+msgid "Your Website..."
+msgstr ""
+
+#: functions.php:77
+msgid "Pre Header Menu"
+msgstr ""
+
+#: functions.php:78
+msgid "Primary Header Menu"
+msgstr ""
+
+#: functions.php:79
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:168
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:178
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:187
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:196
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php:205
+msgid "Footer Column 4"
+msgstr ""
+
+#: functions.php:214
+msgid "Footer Column 5"
+msgstr ""
+
+#: functions.php:223
+msgid "Footer Column 6"
+msgstr ""
+
+#: functions.php:233
+msgid "Sub-Footer Column 1"
+msgstr ""
+
+#: functions.php:242
+msgid "Sub-Footer Column 2"
+msgstr ""
+
+#: image.php:18
+msgid "Published "
+msgstr ""
+
+#: image.php:18
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:18
+msgid "Return to "
+msgstr ""
+
+#: image.php:74 template-sitemap.php:11
+msgid "Pages"
+msgstr ""
+
+#: lib/functions/template-tags.php:34 lib/functions/template-tags.php:66
+msgid "Previous"
+msgstr ""
+
+#: lib/functions/template-tags.php:35 lib/functions/template-tags.php:67
+msgid "Next"
+msgstr ""
+
+#: lib/functions/template-tags.php:40
+msgid "Older posts"
+msgstr ""
+
+#: lib/functions/template-tags.php:44
+msgid "Newer posts"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:165
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:167
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:168
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:169
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:173
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:177
+#: lib/plugins/theme-plugin-activation.php:1945
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:178
+#: lib/plugins/theme-plugin-activation.php:1636
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/plugins/theme-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:534
+#: lib/plugins/theme-plugin-activation.php:2162
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1290
+#: lib/plugins/theme-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1312
+#: lib/plugins/theme-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1928
+msgid "Install package not available."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1929
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1930
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1931
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1932
+msgid "Plugin install failed."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1933
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:1944
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2058
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2059
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2059
+#: lib/plugins/theme-plugin-activation.php:2068
+msgid "Show Details"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2059
+#: lib/plugins/theme-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2060
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2061
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2065
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2066
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2067
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2068
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2069
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/plugins/theme-plugin-activation.php:2070
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: searchform.php:9 searchform.php:10
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:18
+msgid ""
+"Remove this message by adding widgets to the Sidebar from the Widgets "
+"section of the Wordpress admin area."
+msgstr ""
+
+#: single.php:14
+msgid "Pages:"
+msgstr ""
+
+#: template-sitemap.php:16
+msgid "Author(s)"
+msgstr ""
+
+#: template-sitemap.php:23
+msgid "Posts"
+msgstr ""
+
+#: template-sitemap.php:35
+msgid "Category:"
+msgstr ""
+
+#: template-sitemap.php:40
+msgid "Permanent Link to"
+msgstr ""
+
+#: template-sitemap.php:48
+msgid "Archives"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Consulting"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.thinkupthemes.com/free/consulting-free/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Consulting is the free version of the multi-purpose professional theme (Consulting "
+"Pro) ideal for a business or blog website. The theme has a responsive "
+"layout, HD retina ready and comes with a powerful theme options panel with "
+"can be used to make awesome changes without touching any code. The theme "
+"also comes with a full width easy to use slider. Easily add a logo to your "
+"site and create a beautiful homepage using the built-in homepage layout."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThinkUpThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.ThinkUpThemes.com"
+msgstr ""

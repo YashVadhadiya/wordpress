@@ -66,10 +66,10 @@ if ( class_exists( 'Astra_Customizer_Config_Base' ) ) {
 				 * Option: Display Title
 				 */
 				array(
-					'name'      => ASTRA_THEME_SETTINGS . '[display-site-title]',
+					'name'      => ASTRA_THEME_SETTINGS . '[display-site-title-responsive]',
 					'type'      => 'control',
-					'control'   => 'ast-toggle-control',
-					'default'   => astra_get_option( 'display-site-title' ),
+					'control'   => 'ast-responsive-toggle-control',
+					'default'   => astra_get_option( 'display-site-title-responsive' ),
 					'section'   => 'title_tagline',
 					'title'     => __( 'Display Site Title', 'astra' ),
 					'priority'  => 7,

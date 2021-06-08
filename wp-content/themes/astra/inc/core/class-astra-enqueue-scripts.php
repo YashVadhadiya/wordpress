@@ -49,6 +49,7 @@ if ( ! class_exists( 'Astra_Enqueue_Scripts' ) ) {
 			add_action( 'enqueue_block_editor_assets', array( $this, 'gutenberg_assets' ) );
 			add_filter( 'admin_body_class', array( $this, 'admin_body_class' ) );
 			add_action( 'wp_print_footer_scripts', array( $this, 'astra_skip_link_focus_fix' ) );
+			add_filter( 'gallery_style', array( $this, 'enqueue_galleries_style' ) );
 		}
 
 		/**
@@ -182,28 +183,6 @@ if ( ! class_exists( 'Astra_Enqueue_Scripts' ) ) {
 
 			Astra_Fonts::add_font( $heading_font_family, $heading_font_weight );
 			Astra_Fonts::add_font( $heading_font_family, $heading_font_variant );
-
-			if ( astra_target_rules_for_related_posts() ) {
-				// Related Posts Section title.
-				$section_title_font_family = astra_get_option( 'related-posts-section-title-font-family' );
-				$section_title_font_weight = astra_get_option( 'related-posts-section-title-font-weight' );
-				Astra_Fonts::add_font( $section_title_font_family, $section_title_font_weight );
-
-				// Related Posts - Posts title.
-				$post_title_font_family = astra_get_option( 'related-posts-title-font-family' );
-				$post_title_font_weight = astra_get_option( 'related-posts-title-font-weight' );
-				Astra_Fonts::add_font( $post_title_font_family, $post_title_font_weight );
-
-				// Related Posts - Meta Font.
-				$meta_font_family = astra_get_option( 'related-posts-meta-font-family' );
-				$meta_font_weight = astra_get_option( 'related-posts-meta-font-weight' );
-				Astra_Fonts::add_font( $meta_font_family, $meta_font_weight );
-
-				// Related Posts - Content Font.
-				$content_font_family = astra_get_option( 'related-posts-content-font-family' );
-				$content_font_weight = astra_get_option( 'related-posts-content-font-weight' );
-				Astra_Fonts::add_font( $content_font_family, $content_font_weight );
-			}
 		}
 
 		/**
@@ -232,7 +211,7 @@ if ( ! class_exists( 'Astra_Enqueue_Scripts' ) ) {
 
 			// Polyfill for CustomEvent for IE.
 			wp_register_script( 'astra-customevent', $js_uri . 'custom-events-polyfill' . $file_prefix . '.js', array(), ASTRA_THEME_VERSION, false );
-
+			wp_register_style( 'astra-galleries-css', $css_uri . 'galleries' . $file_prefix . '.css', array(), ASTRA_THEME_VERSION, 'all' );
 			// All assets.
 			$all_assets = self::theme_assets();
 			$styles     = $all_assets['css'];
@@ -390,6 +369,18 @@ if ( ! class_exists( 'Astra_Enqueue_Scripts' ) ) {
 		 */
 		public static function enqueue_theme_assets() {
 			return apply_filters( 'astra_enqueue_theme_assets', true );
+		}
+
+		/**
+		 * Enqueue galleries relates CSS on gallery_style filter.
+		 *
+		 * @param string $gallery_style gallery style and div.
+		 * @since 3.5.0
+		 * @return string
+		 */
+		public function enqueue_galleries_style( $gallery_style ) {
+			wp_enqueue_style( 'astra-galleries-css' );
+			return $gallery_style;
 		}
 
 	}

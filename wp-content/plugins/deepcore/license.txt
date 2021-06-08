@@ -1,0 +1,144 @@
+== License ==
+
+Deep Core bundles the following third-party resources:
+
+- jQuery scrollTo, Copyright 2007-2015 Ariel Flesler
+License: MIT
+Source: https://github.com/flesler/jquery.scrollTo
+
+normalize.css, Copyright 2012-2016 Nicolas Gallagher and Jonathan Neal
+License: MIT
+Source: https://necolas.github.io/normalize.css/
+
+- wpColorPicker
+License: GPLv2
+Source: https://github.com/kallookoo/wp-color-picker-alpha
+
+- tilt.js, Copyright (c) 2017 Gijs Rogé
+License: MIT
+Source: https://github.com/gijsroge/tilt.js
+
+- slick, Copyright (c) 2017 Ken Wheeler
+License: MIT
+Source: https://github.com/kenwheeler/slick
+
+- OwlCarousel2-Thumbs
+License: MIT
+Source: https://github.com/gijsroge/OwlCarousel2-Thumbs
+
+- LC Lightbox (LITE), Copyright © Luca Montanari (aka LCweb)
+License: MIT
+Source: https://github.com/LCweb-ita/LC-Lightbox-LITE
+
+- twentytwenty
+License: MIT
+Source: https://github.com/zurb/twentytwenty
+
+- jquery-ticker
+License: MIT
+Source: https://github.com/BenjaminRH/jquery-ticker
+
+- jquery-nice-select
+License: MIT
+Source: https://github.com/hernansartorio/jquery-nice-select
+
+- jquery.nicescroll, Copyright 2011-17 InuYaksa
+License: MIT
+Source: https://github.com/inuyaksa/jquery.nicescroll
+
+- jquery-lazyload-any
+License: MIT
+Source: https://github.com/emn178/jquery-lazyload-any
+
+- FlipClock, Copyright (c) 2013 Objective HTM
+License: MIT
+Source: https://github.com/objectivehtml/FlipClock
+
+- isotope
+License: MIT
+Source: https://github.com/metafizzy/isotope
+
+- OwlCarousel2, Copyright (c) 2014 Owl
+License: MIT
+Source: https://github.com/OwlCarousel2/OwlCarousel2
+
+- Magnific-Popup, Copyright (c) 2014-2016 Dmitry Semenov
+License: MIT
+Source: https://github.com/dimsemenov/Magnific-Popup
+
+- Font Awesome icons, Copyright Dave Gandy
+License: SIL Open Font License, version 1.1.
+Source: http://fontawesome.io/
+
+- Simple Line Icons
+License: MIT
+Source: https://github.com/thesabbir/simple-line-icons
+
+- linecons
+license: SIL
+license_url: http://scripts.sil.org/OFL
+Source: https://github.com/fontello/linecons.font
+
+- Linea Iconset
+License: CC0 1.0
+Source: https://github.com/linea-io/linea-scss
+
+- etlinefont-bower
+License: GPL-3 
+Source: https://github.com/pprince/etlinefont-bower
+
+- Themify Icons
+License: MIT 
+Source: https://github.com/lykmapipo/themify-icons
+
+- Get The Image, Copyright Justin Tadlock
+License: GPL2
+Source: http://justintadlock.com/archives/2008/05/27/get-the-image-wordpress-plugin
+
+- FlexSlider
+License: GPL-2.0
+Source: https://github.com/woocommerce/FlexSlider
+
+- vivus
+License: MIT
+Source: https://github.com/maxwellito/vivus
+
+- superfish
+License: MIT
+Source: https://github.com/joeldbirch/superfish
+
+- smooth-scroll
+License: MIT
+Source: https://github.com/cferdinandi/smooth-scroll
+
+- ScrollMagic
+License: MIT
+Source: https://github.com/janpaepke/ScrollMagic
+
+- waypoints
+License: MIT
+Source: https://github.com/imakewebthings/waypoints
+
+- jquery-visible
+License: MIT
+Source: https://github.com/customd/jquery-visible
+
+- jquery-toggles
+License: MIT
+Source: https://github.com/simontabor/jquery-toggles
+
+- FitVids
+License: WTFPL
+Source: https://github.com/davatron5000/FitVids.js/
+
+- jquery-fatNav
+License: MIT
+Source: https://github.com/Glitchbone/jquery-fatNav
+
+- fullPage.js
+License: GPL-3.0
+Source: https://github.com/alvarotrigo/fullPage.js
+
+- Line-Style Icons
+License: GPL-3.0
+Source: https://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons

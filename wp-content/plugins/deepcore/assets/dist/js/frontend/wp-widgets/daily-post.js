@@ -1,0 +1,1 @@
+jQuery(".wn-daily-post-carousel").owlCarousel({items:1,dots:!0,nav:!1,autoplay:!0,slideSpeed:600,paginationSpeed:400,autoPlay:6e3,loop:!0,navText:["",""]});

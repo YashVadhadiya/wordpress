@@ -1,0 +1,155 @@
+  /**
+ * 2.0 - Typography
+ */
+
+/*--------------------------------------------------------------
+## Font Awesome
+--------------------------------------------------------------*/
+@import 'font-awesome';
+
+/*--------------------------------------------------------------
+## Font Family
+--------------------------------------------------------------*/
+@import 'font-family';
+
+/*--------------------------------------------------------------
+## Font Size
+--------------------------------------------------------------*/
+@import 'font-size';
+
+/*--------------------------------------------------------------
+## Headings
+--------------------------------------------------------------*/
+@import 'headings';
+
+p {
+	margin: 0 0 1.666666666666667em 0;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	font-family: "georgia";
+	font-size: 24px;
+	font-size: 1.5rem;
+	font-style: normal;	
+	font-weight: 700;
+	line-height: 1.46;
+	margin: 0 0 1.75em;
+	padding: 0.1em 0 0 42px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+
+blockquote p {
+	margin-bottom: 1.050em;
+	margin-top: 0;
+}
+
+
+blockquote.alignleft {
+    text-align: left;
+    padding-left: 0;
+}
+
+blockquote.alignright {
+    padding-right: 0;
+    text-align: right;
+}
+
+blockquote.alignleft:before,
+blockquote.alignright:before {
+	display: none;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 100px;
+    font-size: 6.25rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    top: 40px;
+    line-height: 0.65;
+    letter-spacing: normal;
+    left: -7px;
+    width: 100%;
+    z-index: -1;
+}
+
+blockquote cite,
+blockquote small {
+	display: block;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.615384615384615;
+	text-decoration: none;
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+	font-style: normal;
+}
+
+blockquote strong,
+blockquote b {
+	font-weight: 400;
+}
+
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+address {
+	font-style: italic;
+	margin: 0 0 1.75em;
+}
+
+code,
+kbd,
+tt,
+var,
+samp {
+	font-family: Inconsolata, monospace;
+	font-size: 1em;
+}
+
+pre {
+	font-family: Inconsolata, monospace;
+	line-height: 1.5;
+	margin: 0 0 1.75em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.75em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+code {
+	padding: 0.125em 0.25em;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+mark,
+ins {
+	padding: 0.125em 0.25em;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}

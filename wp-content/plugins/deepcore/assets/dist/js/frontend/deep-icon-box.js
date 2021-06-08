@@ -1,0 +1,1 @@
+!function(e){e(".icon-box22").on("mouseenter",function(){e(".icon-box22").removeClass("w-featured"),e(this).addClass("w-featured")})}(jQuery);

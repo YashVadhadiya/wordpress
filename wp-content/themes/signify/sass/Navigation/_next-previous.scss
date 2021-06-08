@@ -1,0 +1,234 @@
+/**
+ * 5.2 - Post Navigation
+ */
+
+.post-navigation {
+    clear: both;
+}
+
+.post-navigation a {
+    display: block;
+    text-decoration: none;
+}
+
+.post-navigation .meta-nav {
+    display: block;
+    letter-spacing: 0.083em;
+    margin-bottom: 0.583em;
+    text-transform: uppercase;
+}
+
+.posts-navigation .nav-links div:nth-child(1):nth-last-child(2),
+.posts-navigation .nav-links div:nth-child(2):nth-last-child(1),
+.post-navigation .nav-links div:nth-child(1):nth-last-child(2),
+.post-navigation .nav-links div:nth-child(2):nth-last-child(1) {
+    display: inline-block;
+    width: 50%;
+}
+
+.post-navigation .nav-previous,
+.posts-navigation .nav-previous {
+    text-align: left;
+}
+
+.post-navigation .nav-next,
+.posts-navigation .nav-next {
+    float: right;
+    text-align: right;
+}
+
+.post-navigation div + div,
+.posts-navigation div + div {
+    margin-top: 0;
+}
+
+.post-navigation .post-title {
+    font-weight: 700;
+    display: block;
+    text-rendering: optimizeLegibility;
+}
+
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+
+.pagination .prev,
+.pagination .next {
+    width: 100%;
+}
+
+.image-navigation,
+.comment-navigation {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.6153846154;
+    margin: 0 7.6923% 2.1538461538em;
+    padding: 1.0769230769em 0;
+}
+
+.comment-navigation {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.comments-title + .comment-navigation {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.image-navigation .nav-previous:not(:empty),
+.image-navigation .nav-next:not(:empty),
+.comment-navigation .nav-previous:not(:empty),
+.comment-navigation .nav-next:not(:empty) {
+    display: inline-block;
+}
+
+.image-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before,
+.comment-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before {
+    content: "\002f";
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 0.538461538em;
+}
+
+.posts-navigation,
+.pagination,
+#content #infinite-handle {
+    clear: both;
+    margin: 0;
+    text-align: center;
+}
+
+#content #infinite-handle {
+    display: block;
+}
+
+#content #infinite-handle span {
+    background: none transparent;
+    display: inline-block;
+    padding: 0;
+}
+
+#content #infinite-handle > span {
+    display: block;
+
+    button {
+        @include border(0);
+        border: 1px solid transparent;
+        display: block;
+        width: 100%;
+    }
+}
+
+.infinite-loader #ctis-loading img {
+    width: 35px;
+}
+
+.infinite-loader {
+    clear: both;
+}
+
+.posts-navigation a,
+#content #infinite-handle span button {
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.pagination .prev,
+.pagination .next {
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.pagination .page-numbers {
+    display: inline-block;
+    margin: 7px 0;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.pagination .page-numbers.current {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.posts-navigation a,
+#infinite-handle span button {
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#content #infinite-handle {
+    z-index: 2;
+}
+
+#content #infinite-handle,
+#content .infinite-loader {
+    cursor: pointer;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.archive-posts-wrapper .section-content-wrapper {
+    position: relative;
+    padding: 0;
+}
+
+.site-content .archive-posts-wrapper .posts-navigation .nav-links {
+
+    > div {
+        display: block;
+        margin: 0;
+        width: 100%;
+
+        a {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+.posts-navigation .nav-links .nav-previous a:before {
+    margin-right: 10px;
+}
+
+.posts-navigation .nav-links .nav-next a:after {
+    margin-left: 10px;
+}
+
+@media screen and (orientation:portrait) {
+   /* Portrait styles here */
+   .posts-navigation a {
+        padding: 12px 8px;
+    }
+
+    .posts-navigation .nav-links .nav-previous a:before {
+        margin-right: 5px;
+    }
+
+    .posts-navigation .nav-links .nav-next a:after {
+        margin-left: 5px;
+    }
+
+    #social-footer-navigation.social-navigation li,
+    #social-footer-navigation .social-links-menu li {
+        margin-right: 5px;
+    }
+}
+
+.infinite-scroll .posts-navigation {
+    display: none;
+}

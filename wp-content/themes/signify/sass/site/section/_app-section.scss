@@ -1,0 +1,67 @@
+/**
+ * 7.3.1 - App Section
+ */
+
+.app-image-container {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column wrap;
+	flex-flow: column wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.app-section .hentry {
+    position: initial;
+}
+
+#app-section .entry-container {
+    float: none;
+    margin: 0 auto;
+    max-width: 680px;
+}
+
+#app-section.content-align-right .entry-container {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+#app-section.content-align-left .entry-container {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.promotion-section.text-align-right .app-image-container {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.promotion-section.text-align-left .app-image-container {
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.app-image-container div + div {
+	margin-top: 14px;
+}
+
+#app-section.content-frame .entry-container {
+	position: relative;
+
+	&:after {
+		content: "";
+		left: 0;
+		opacity: 0.8;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: -1;
+	}
+}

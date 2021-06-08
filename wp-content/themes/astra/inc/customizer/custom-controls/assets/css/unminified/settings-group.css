@@ -1,6 +1,6 @@
 .ast-adv-toggle-icon {
   right: 2px;
-  top: -2px;
+  top: 0;
   position: absolute;
   width: 18px;
   height: 18px;
@@ -101,7 +101,7 @@
 
 .ast-field-settings-wrap .ast-field-settings-modal {
   border-radius: 3px;
-  margin-top: 9px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 

@@ -1,0 +1,109 @@
+/**
+ * 7.3.8 - Footer
+ */
+
+#colophon .widget-column {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#colophon .widget {
+    background-color: transparent;
+}
+
+#site-generator {
+    clear: both;
+    padding: 21px 0 0 0;
+}
+
+#colophon {
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+body #colophon .above-footer {
+    clear: both;
+    width: 100%;
+
+    section {
+        margin-bottom: 0;
+    }
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.home.sticky-playlist-enabled .site-footer {
+    margin-bottom: 65px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    max-width: 667px;
+    margin: 0 auto;
+
+    p {
+        margin-bottom: 0;
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.footer-contact {
+    margin-top: 28px;
+}
+
+.site-info {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.site-info a {
+    text-decoration: none;
+}
+
+.site-info a:hover,
+.site-info a:focus {
+    text-decoration: underline;
+}
+
+#site-generator #social-footer-navigation a {
+    font-size: 13px;
+}
+
+#site-generator #social-footer-navigation a:before {
+    border-radius: 100%;
+    font-size: 13px;
+    border: solid 1px;
+    height: 44px;
+    width: 44px;
+}
+
+#site-generator #social-footer-navigation a:focus:before,
+#site-generator #social-footer-navigation a:hover:before {
+    border-color: transparent;
+}
+
+#site-generator #social-footer-navigation a span {
+    display: none;
+}
+
+#footer-menu-section .wrapper {
+    padding: 0 30px;
+}
+
+.site-info .wrapper {
+    padding: 30px;
+}
+
+.footer-menu {
+    text-align: center;
+}

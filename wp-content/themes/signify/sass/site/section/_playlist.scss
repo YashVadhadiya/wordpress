@@ -1,0 +1,124 @@
+/**
+ * 7.3.13 - Playlist Section
+ */
+
+#playlist-section {
+	border: none;
+	position: relative;
+ }
+
+ .playlist-section {
+    padding: 42px 0;
+ }
+
+.playlist-content-wrapper .hentry {
+
+    .hentry-inner {
+    	position: relative;
+
+        p a {
+            display: inline-block;
+            padding: 5px;
+            width: 35%;
+        }
+
+        .post-thumbnail img {
+            margin: 0;
+            width: 100%;
+        }
+    }
+}
+
+.playlist-section .entry-container > p,
+.playlist-section .entry-container .entry-header {
+    text-align: center
+}
+
+
+#playlist-section .playlist-content-wrapper {
+
+    .wp-playlist-current-item {
+        display: none;
+    }
+
+    .mejs-container {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .mejs-next {
+        padding-right: 0;
+    }
+}
+
+.playlist-content-wrapper .post-thumbnail-background {
+    background-position: right center;
+    background-size: cover;
+    content: "";
+    float: left;
+    margin-bottom: 21px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.playlist-content-wrapper .entry-container {
+    clear: both;
+    width: 100%;
+}
+
+#playlist-section .playlist-content-wrapper .wp-playlist {
+    display: block;
+
+    .mejs-currenttime {
+        display: none;
+    }
+
+    .mejs-container {
+        .mejs-controls {
+            padding: 27px 21px;
+
+            .mejs-duration-container {
+                padding-top: 14px;
+            }
+        }
+    }
+}
+
+.playlist-content-wrapper .wp-playlist {
+    @include flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+    .mejs-time {
+        padding: 0;
+    }
+
+    .mejs-duration-container {
+        padding-left: 5px;
+        position: relative;
+    }
+
+    .mejs-currenttime-container {
+        padding-right: 5px;
+    }
+
+    .wp-playlist-current-item {
+    	margin: 0;
+
+        img {
+            display: none;
+        }
+    }
+
+    .wp-playlist-tracks {
+        width: 100%;
+    }
+}
+
+.playlist-content-wrapper .entry-title {
+	font-weight: 700;
+    text-transform: uppercase;
+}

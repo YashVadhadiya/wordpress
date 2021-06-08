@@ -1,0 +1,131 @@
+/**
+ * 6.0 - Modules
+ */
+
+.section {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	padding: 7px 0;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.section-heading-wrapper {
+	display: block;
+	max-width: 920px;
+	padding: 35px 30px 28px 30px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.promotion-section .wrapper {
+	padding-top: 35px;
+}
+
+.section-description,
+.singular-content-wrap .section-description-wrapper {
+	margin-top: 7px;
+	opacity: 0.6;
+}
+
+#testimonial-content-section .owl-slideshow {
+	overflow: hidden;
+}
+
+.team-section.text-align-center .social-links-menu,
+.team-section.text-align-left .social-links-menu,
+.team-section.text-align-right .social-links-menu {
+    -webkit-box-pack: flex-center;
+        -ms-flex-pack: flex-center;
+            justify-content: center;
+}
+
+.text-align-left .entry-container,
+.text-align-right .entry-container,
+.text-align-center .custom-header-content-wrapper,
+.text-align-center .entry-container {
+    text-align: center;
+}
+
+.section.text-align-center .entry-content .button,
+.section.text-align-center .entry-summary .button,
+.section.text-align-left .entry-content .button,
+.section.text-align-left .entry-summary .button,
+.section.text-align-right .entry-content .button,
+.section.text-align-right .entry-summary .button,
+.section.service-section .entry-content .button,
+.section.service-section .entry-summary .button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-align-right .post-thumbnail img,
+.text-align-right .post-thumbnail img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-description-wrapper,
+.section-title-wrapper+.section-description,
+.section-title+.section-description,
+.section-title-wrapper+.section-subtitle,
+.section-heading-wrapper>.section-description,
+.section-title+.section-description {
+	opacity: 0.8;
+}
+
+.section-subtitle,
+.playlist-section .entry-container > p {
+	font-weight: 700;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+}
+
+/*-------------------------------------------------------------
+## accessibility
+--------------------------------------------------------------*/
+@import 'accessibility';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'alignments';
+
+/*--------------------------------------------------------------
+## breadcrumbs
+--------------------------------------------------------------*/
+@import 'breadcrumbs';
+
+/*--------------------------------------------------------------
+## captions
+--------------------------------------------------------------*/
+@import 'captions';
+
+/*--------------------------------------------------------------
+## clearings
+--------------------------------------------------------------*/
+@import 'clearings';
+
+/*--------------------------------------------------------------
+## content
+--------------------------------------------------------------*/
+@import 'content';
+
+/*--------------------------------------------------------------
+## media
+--------------------------------------------------------------*/
+@import 'media';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'scroll-up';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'sidebar';

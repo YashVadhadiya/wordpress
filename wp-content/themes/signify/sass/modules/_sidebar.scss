@@ -1,0 +1,44 @@
+/**
+ * 6.9 - Sidebar
+ */
+
+.sidebar ul {
+	margin-bottom: 0;
+}
+
+.sidebar .widget .hentry {
+	float: none;
+	overflow: hidden;
+}
+
+.sidebar.widget-area .ew-about .widget-wrap {
+    text-align: center;
+}
+
+.sidebar .widget .section-heading-wrapper {
+	padding-bottom: 35px;
+	text-align: center;
+}
+
+.sidebar .widget .social-links-menu {
+	text-align: center;
+}
+
+.sidebar {
+	.social-navigation a,
+	.social-links-menu a {
+		margin: 5px 10px;
+	}
+}
+.sidebar {
+	.social-navigation,
+	.social-links-menu {
+		li {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.sidebar.widget-area .essential-widgets {
+	float: none;
+}

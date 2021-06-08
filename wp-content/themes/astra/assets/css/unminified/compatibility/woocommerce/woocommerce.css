@@ -1297,7 +1297,7 @@ p.demo_store a,
   background-color: #77a464;
   color: white;
   -webkit-font-smoothing: antialiased;
-  z-index: 99;
+  z-index: 9;
 }
 
 .woocommerce .products ul,
@@ -4297,16 +4297,6 @@ button.pswp__button--zoom:hover {
 
 .woocommerce ul.product-categories > li {
   padding: 2px 0px;
-}
-
-.woocommerce ul.product-categories > li ul li:before {
-  content: "\e900";
-  padding: 0 5px 0 5px;
-  display: inline-block;
-  font-family: Astra;
-  transform: rotate(-90deg);
-  font-size: 11px;
-  font-size: 0.7rem;
 }
 
 .woocommerce ul.product-categories > li:first-child {

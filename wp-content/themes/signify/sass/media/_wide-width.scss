@@ -1,0 +1,381 @@
+/**
+ * 8.7 - >= 1366px
+ */
+
+@include media(wide) {
+	/* Woocommerce styles */
+
+	#team-dots {
+		max-width: 545px;
+		margin: 0 45px;
+	}
+
+	.hentry,
+	.timeline-footer-text {
+        margin-bottom: 42px;
+    }
+
+	#team-dots {
+		display: flex;
+	}
+
+	.color-scheme-photography .custom-header {
+        .header-media-tagline {
+            letter-spacing: 16.1px;
+        }
+    }
+
+	.has-header-video.header-media-text-disabled .custom-header.header-media {
+	    min-height: 690px;
+	}
+
+	.custom-header-content-wrapper .more-link {
+	    margin-top: 35px;
+	}
+
+	.archive-posts-wrapper .layout-one .hentry .post-thumbnail + .entry-container,
+	.no-sidebar .archive-posts-wrapper .layout-one .hentry .post-thumbnail + .entry-container {
+        padding: 0 81px;
+		padding-right: 0;
+    }
+
+	#stats-section .section-content-wrapper .post-thumbnail {
+		margin-bottom: 0;
+	}
+
+	.section-content-wrapper,
+    .signify-logo-slider-content-wrapper,
+    .portfolio-section .section-content-wrapper,
+    .archive-posts-wrapper.section .recent-blog-content-wrapper {
+        padding: 0 30px;
+    }
+
+
+	.header-style-two .site-header .site-header-main .wrapper {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+    .main-image + .inner-section-content-wrapper {
+    	padding: 0 50px;
+    }
+
+	/* Woocommerce styles end here */
+
+	.site-header .site-header-main .wrapper{
+		padding: 0 50px;
+	}
+
+	#primary-search-wrapper > .social-navigation {
+ 		display: block;
+ 	}
+
+	.comment-respond {
+		padding: 42px 56px;
+	}
+
+	.color-scheme-photography.home .custom-header .section-title {
+    	font-size: 120px;
+    	font-size: 7.5rem;
+    }
+
+   	.custom-header .section-title,
+	#feature-slider-section .entry-title {
+        font-size: 64px;
+        font-size: 4rem;
+    }
+
+    .site-title {
+        font-size: 44px;
+        font-size: 2.75rem;
+    }
+
+	.entry-content h1,
+	.entry-summary h1,
+	.comment-content h1,
+	.textwidget h1,
+	.comments-title,
+	#contact-section .entry-title,
+	.events-content-wrapper .date-week-day,
+	#footer-instagram .widget-title,
+	.section-title,
+	#app-section .section-title,
+	#hero-section .entry-title,
+    .promotion-section .section-title,
+	#playlist-section .entry-title,
+	.singular-content-wrap .entry-title,
+	.page-title {
+		font-size: 42px;
+		font-size: 2.625rem;
+	}
+
+	.woocommerce-posts-wrapper .entry-title,
+	.woocommerce .related.products > h2,
+	.entry-content h2,
+	.entry-summary h2,
+	.comment-content h2,
+	#stats-section h2.entry-title,
+	.textwidget h2 {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+
+	#site-generator .social-navigation a,
+	.entry-content h3,
+	.entry-summary h3,
+	.comment-content h3,
+	.textwidget h3 {
+		font-size: 30px;
+		font-size: 1.875rem;
+	}
+
+	.entry-content h4,
+	.entry-summary h4,
+	.comment-content h4,
+	.textwidget h4 {
+		font-size: 26px;
+		font-size: 1.635rem;
+	}	   
+
+	#feature-slider-section .entry-summary,
+    #feature-slider-section .entry-content,
+	ul.products li.product .price,
+	.contact-content-wrapper .contact-info-details,
+	.color-scheme-photography .custom-header .header-media-tagline,
+	.footer-contact p {
+		font-size: 21px;
+		font-size: 1.3125rem;
+	}
+
+	.events-content-wrapper .entry-summary,
+    .team-content-wrapper .entry-meta,
+	aside.footer-widget-area a {
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+
+    .site-description {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+
+	#footer-newsletter .widget {
+		padding: 28px 50px;
+	}
+
+	#hero-section .wrapper {
+		padding: 91px 20px;
+	}
+
+	.single .site-main .entry-header,
+    .page .site-main .entry-header,
+    .archive .page-header,
+    .error404 .page-header,
+    .search .page-header,
+    .woocommerce-products-header {
+        margin-bottom: 63px;
+    }
+
+    .section.no-section-heading {
+        padding-top: 91px;
+    }
+
+    .footer-contact {
+	    margin-top: 49px;
+	}
+
+	.site-content > .wrapper,
+	#featured-slider-section + .site-content > .wrapper {
+		padding: 91px 30px;
+	}
+
+	.section:nth-child(even) + .site-content .wrapper {
+		padding-top: 91px;
+	}
+
+    #feature-slider-section + .site-content > .wrapper,
+    #promotion-section.promotion-section + .site-content > .wrapper {
+    	padding-top: 91px;
+    }
+
+	#primary,
+    #secondary {
+        padding: 0 20px;
+    }
+
+	.author-info {
+		margin-top: 56px;
+	}
+
+	#footer-instagram .widget-title {
+		margin: 70px auto 42px;
+	}
+
+	.comment-respond {
+		padding: 42px 63px;
+	}
+
+	#gallery-section .tiled-gallery .tiled-gallery-item a:after {
+		font-size: 20px;
+		font-size: 1.25rem;
+	    height: 50px;
+	    padding: 15px;
+	    width: 50px;
+	}
+
+	caption,
+	th,
+	td,
+	table.shop_table_responsive tr td {
+	    padding: 0.778em 1.556em;
+	}
+
+	button,
+	.more-link,
+	.button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"],
+	.posts-navigation a,
+	#content #infinite-handle span button,
+	.catch-instagram-feed-gallery-widget-wrapper .button,
+	.header-media .more-link,
+	#feature-slider-section .more-link,
+	#hero-section .more-link,
+	.promotion-section .more-link {
+		padding: 11px 35px;
+	}
+
+	.content-align-left .hero-content-wrapper .entry-container {
+        padding-right: 105px;
+    }
+
+    .content-align-right .hero-content-wrapper .entry-container {
+        padding-left: 105px;
+    }
+
+    #hero-section.style-two.content-align-right .hero-content-wrapper .entry-container {
+        margin-left: -50px;
+    }
+
+    #hero-section.style-two.content-align-left .hero-content-wrapper .entry-container {
+        margin-right: -50px;
+    }
+
+    #hero-section.style-two .hero-content-wrapper .entry-container {
+        .content-wrapper {
+        	padding: 56px 96px;
+        }
+    }
+
+	.playlist-content-wrapper .entry-container {
+		padding: 102px 0 0 76px;
+	}
+
+	.playlist-content-wrapper.content-align-left .entry-container {
+        padding-left: 0;
+        padding-right: 76px;
+    }
+
+	.archive-posts-wrapper .layout-one .hentry .hentry-inner {
+        padding-bottom: 80px;
+        padding-top: 38px;
+    }
+
+    #content #infinite-handle {
+        margin-top: 38px;
+    }
+
+    .archive-posts-wrapper .layout-one .hentry:first-child .hentry-inner {
+    	padding-top: 0;
+    }
+
+	.section {
+		padding-bottom: 49px;
+		padding-top: 49px;
+	}
+
+	#contact-section .section-content-wrapper {
+	    margin: 0 auto 42px;
+        padding: 91px 30px 61px;
+    }
+
+    #contact-section .main-image + .inner-section-content-wrapper .section-content-wrapper {
+    	margin-top: 340px;
+    }
+
+	.promotion-section .wrapper {
+		padding-top: 42px;
+	}
+
+    .site-branding {
+        padding: 42px 50px;
+    }
+
+    .section-heading-wrapper {
+        padding: 42px 40px 42px 40px;
+    }
+
+    .section-subtitle,
+    .playlist-section .entry-container > p {
+        margin-bottom: 14px;
+    }
+
+    .section-description,
+    .singular-content-wrap .section-description-wrapper {
+		margin-top: 14px;
+	}
+
+    .site-footer-menu + .site-info .wrapper {
+    	padding-bottom: 56px;
+    	padding-top: 56px;
+    }
+
+    .footer .widget .widget-title {
+    	margin-bottom: 35px;
+    }
+
+    .ewfeaturedpostpageimage .hentry {
+    	margin-bottom: 21px;
+    }
+
+    #feature-slider-section .slider-content-wrapper,
+    .custom-header .custom-header-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .transparent-header-color-scheme {
+    	#feature-slider-section .slider-content-wrapper,
+	    .custom-header .custom-header-content {
+	        padding: 40px 50px;
+	    }
+    }
+
+   	#footer-menu-section .wrapper {
+        padding: 0 50px;
+    }
+
+    .site-info .wrapper {
+        padding: 40px 50px;
+    }
+
+    .team-content-wrapper.section-content-wrapper .entry-meta {
+	    margin-bottom: 14px;
+	    margin-top: 14px;
+	}
+
+	.team-content-wrapper .entry-container {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+
+    .header-top-bar .wrapper {
+		padding: 0 40px;
+	}
+
+	.promotion-section.content-frame .entry-container-frame,
+	.color-scheme-wedding .hero-content-wrapper .entry-container .content-wrapper {
+        padding: 49px;
+    }
+}

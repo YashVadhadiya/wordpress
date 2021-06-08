@@ -1,0 +1,1 @@
+"use strict";!function(n){jQuery(document).ready(function(){n(".wniconbx-tilt").each(function(t,i){n(this).data();n(this).tilt({glare:!0,maxGlare:.5})})})}(jQuery);

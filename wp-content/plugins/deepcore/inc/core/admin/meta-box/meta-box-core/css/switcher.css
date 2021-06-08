@@ -1,0 +1,63 @@
+.rwmb-switcher-wrapper .description {
+	display: inline;
+	font-style: normal;
+}
+
+.rwmb-switcher-wrapper .w-switcher input {
+	position: absolute;
+	margin-left: -9999px;
+	visibility: hidden;
+}
+
+.rwmb-switcher-wrapper .w-switcher input + label {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	user-select: none;
+}
+
+.rwmb-switcher-wrapper .w-switcher input + label {
+	padding: 2px;
+	width: 50px;
+	height: 22px;
+	background-color: #dddddd;
+	border-radius: 60px;
+}
+
+.rwmb-switcher-wrapper .w-switcher input + label:before,
+.rwmb-switcher-wrapper .w-switcher input + label:after {
+	display: block;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	bottom: 1px;
+	content: "";
+}
+
+.rwmb-switcher-wrapper .w-switcher input + label:before {
+	right: 1px;
+	background-color: #f1f1f1;
+	border-radius: 60px;
+	transition: background 0.4s;
+}
+
+.rwmb-switcher-wrapper .w-switcher input + label:after {
+	width: 24px;
+	background-color: #fff;
+	border-radius: 100%;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+	transition: margin 0.4s;
+}
+
+.rwmb-switcher-wrapper .w-switcher input:checked + label {
+	background-color: #8ce196;
+}
+
+.rwmb-switcher-wrapper .w-switcher input:checked + label:before {
+	background-color: #8ce196;
+}
+
+.rwmb-switcher-wrapper .w-switcher input:checked + label:after {
+	margin-left: 28px;
+}

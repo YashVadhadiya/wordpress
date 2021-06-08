@@ -1,0 +1,20 @@
+/**
+ * 7.3.16 - Services
+ */
+
+#service-section {
+    position: relative;
+    width: 100%;
+    
+    .post-thumbnail {
+
+        a:hover  img {
+        	animation: zoom 0.7s linear infinite;
+            transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+        	@include transition(0.3s ease-in-out);
+        }
+    }
+}

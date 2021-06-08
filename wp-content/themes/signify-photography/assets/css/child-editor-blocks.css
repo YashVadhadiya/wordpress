@@ -1,0 +1,30 @@
+/*
+Theme Name: Signify Dark
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+ th, 
+ .mce-item-table th, 
+ td, 
+ .mce-item-table td {
+ 	border-bottom: 0;
+ }
+
+ tbody tr:last-child th, 
+ tbody tr:last-child td {
+ 	border-bottom: 1px solid;
+ }
+
+/*--------------------------------------------------------------
+1.0 - Colors
+--------------------------------------------------------------*/
+
+.editor-styles-wrapper.edit-post-visual-editor,
+.mce-content-body {
+	background-color: #000;
+	color: #999999;
+}
+
+blockquote {
+	color: #ffffff;
+}

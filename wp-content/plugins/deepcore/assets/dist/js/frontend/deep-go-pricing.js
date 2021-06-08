@@ -1,0 +1,1 @@
+!function(o){o(".gw-go-col-wrap").on("hover",function(){o(this).removeClass("gw-go-hover")})}(jQuery);

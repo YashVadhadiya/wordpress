@@ -1,0 +1,20 @@
+#accordion-panel-fairy_panel .accordion-section-title,
+#accordion-section-fairy_about_theme_section .accordion-section-title{
+	margin-top:  -4px;
+	font-weight: 400;
+	font-size: 16px;
+	background: #d10014;
+	color: #fff;
+}
+#customize-theme-controls #accordion-panel-fairy_panel .accordion-section-title:after{
+	color: #fff;
+}
+#customize-theme-controls #accordion-panel-fairy_panel .accordion-section-title:hover:after{
+	color: #0073aa;
+}
+.at-pro {
+	background: #d10014!important;
+	color: #fff!important;
+	box-shadow: none!important;
+	border-color: #d10014 !important;
+}

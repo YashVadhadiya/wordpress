@@ -148,7 +148,7 @@ if ( class_exists( 'Astra_Customizer_Config_Base' ) ) {
 						'input_attrs' => array(
 							'min'  => 0,
 							'step' => 1,
-							'max'  => 200,
+							'max'  => 1920,
 						),
 						'transport'   => 'postMessage',
 					),

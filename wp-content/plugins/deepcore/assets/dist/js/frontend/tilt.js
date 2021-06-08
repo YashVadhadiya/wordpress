@@ -1,0 +1,1 @@
+!function(n){function t(n,e){e(".wniconbx-tilt").each(function(n,t){e(this).data();e(this).tilt({glare:!0,maxGlare:.5})})}n(window).on("elementor/frontend/init",function(){elementorFrontend.hooks.addAction("frontend/element_ready/iconbox.default",t)})}(jQuery);

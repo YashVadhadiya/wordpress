@@ -1,0 +1,40 @@
+/**
+ * 7.3.18 - Team Content Section
+ */
+
+.team-content-wrapper .hentry-inner {
+    position: relative;
+}
+
+.team-content-wrapper .entry-meta {
+    text-transform: captialize;
+}
+
+.team-section .social-links-menu {
+
+    li {
+        a {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+         &:first-child a {
+            padding-left: 0;
+         }   
+    }
+}
+
+.team-section {
+    .hentry-inner {
+        overflow: hidden;
+        .social-links-menu {
+            left: 10px;
+            position: absolute;
+            top: 10px;
+            @include flex;
+            @include flex-direction-column;
+            li {
+                opacity: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+/**
+ * 7.3.3 - Collection
+ */
+
+.collection-wrapper {
+ 	.hentry-inner {
+ 		min-height: 380px;
+ 		overflow: hidden;
+ 		position: relative;
+
+ 		.post-thumbnail {
+ 			background-size: cover;
+ 			background-position: center center;
+ 			background-repeat: no-repeat;
+ 			height: 100%;
+ 			position: absolute;
+ 			width: 100%;
+ 		}
+
+ 		.product-container {
+ 			left: 20px;
+ 			margin-top: 0;
+ 			position: absolute;
+ 			padding-right: 20px;
+ 			top: 50%;
+ 			transform: translateY(-50%);
+ 			-webkit-transform: translateY(-50%);
+ 			-moz-transform: translateY(-50%);
+
+ 			.product-meta p {
+ 				margin-bottom: 0;
+ 			}
+ 		}
+ 	}
+}
+
+#collection-section .collection-wrapper {
+	.posted_in a {
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.sku_wrapper {
+		display: none;
+	}
+}
+
+#collection-section .collection-wrapper .product-container .added_to_cart {
+	padding: 11px 32px;
+	margin-left: 5px;
+}

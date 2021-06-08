@@ -1,0 +1,1 @@
+!function(t){t(".alert .close").on("click",function(){t(this).closest(".alert").fadeOut("normal",function(){t(this).remove()})})}(jQuery);

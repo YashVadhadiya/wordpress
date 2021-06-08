@@ -1,0 +1,284 @@
+/*
+Theme Name: Signify Dark
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Padding/Margin
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ * 7.0 - Alignments
+ * 8.0 - Posts and pages
+ * 9.0 - Media
+ * 10.0 - Captions
+ * 11.0 - Galleries
+ * 12.0 - Media Queries
+ *    12.1 - >= 1024px
+ *	  12.2 - >= 1200px
+ *	  12.3 - >= 1366px
+ *	  12.4 - >= 1600px
+ * 14.0 - RTL
+ * 15.0 - Colors
+ */
+
+
+/**
+ * 1.0 - Body
+ */
+
+body {
+	margin: 30px;
+	max-width: 968px;
+}
+
+
+/**
+ * 2.0 - Typography
+ */
+
+
+/**
+ * 8.0 - Posts and pages
+ */
+
+ th, 
+ .mce-item-table th, 
+ td, 
+ .mce-item-table td {
+ 	border-bottom: 0;
+ }
+
+ tbody tr:last-child th, 
+ tbody tr:last-child td {
+ 	border-bottom: 1px solid;
+ }
+
+h1:first-child,
+.mce-content-body h1,
+h2:first-child,
+.mce-content-body h2,
+h3:first-child,
+.mce-content-body h3,
+h4:first-child,
+.mce-content-body h4,
+h5:first-child,
+.mce-content-body h5,
+h6:first-child,
+.mce-content-body h6:first-child {
+	margin-top: 0;
+}
+
+.drop-cap:first-letter {
+	float: left;
+    font-size: 120px;
+    font-size: 7.5rem;
+    font-weight: 700;
+    line-height: 0.6;
+    margin: 14px 16px 5px -3px;
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+
+/**
+ * 12.0 - Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 12.1 - >= 1024px
+ */
+
+@media screen and (min-width: 64em) {
+
+}
+
+
+/**
+ * 12.2 - >= 1366px
+ */
+
+@media screen and (min-width: 85.375em) {
+
+}
+
+
+/**
+ * 12.3 - >= 1600px
+ */
+
+@media screen and (min-width: 100em) {
+}
+
+
+/**
+ * 14.0 - RTL
+ */
+
+.rtl blockquote {
+	padding: 0 1.263157895em 0 0;
+}
+
+.rtl blockquote > ul,
+.rtl blockquote > ol {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+.rtl table th,
+.rtl .mce-item-table th,
+.rtl .mce-item-table td,
+.rtl table caption {
+	text-align: right;
+}
+
+.rtl ul,
+.rtl ol {
+	margin: 0 1.75em 1.5em 0;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+15.0 Blocks - Colors
+--------------------------------------------------------------*/
+
+/* Main Text Color */ 
+
+ins,
+pre {
+	color: #999;
+}
+
+.mce-content-body {
+	background-color: #000;
+	color: #999999;
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:hover, 
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:focus, 
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing:hover, 
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing:focus, 
+.mce-container-body .mce-content-body a:not(.more-link):not(.button):not(button), 
+a:not(.more-link):not(.button):not(button), 
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption:hover, 
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption:focus, 
+.wp-playlist-tracks .wp-playlist-item:hover, 
+.wp-playlist-tracks .wp-playlist-item:focus {
+	color: #ffbf00;
+}
+
+.mce-container-body .mce-content-body a:not(.more-link):not(.button):not(button):hover, 
+.mce-container-body .mce-content-body a:not(.more-link):not(.button):not(button):focus, 
+a:not(.more-link):not(.button):not(button):hover,
+a:not(.more-link):not(.button):not(button):focus {
+	color: #999;
+}
+
+
+/* Secondary Background Color */ 
+
+ins,
+pre {
+	background-color: #222222;
+}
+
+/* Headline Text Color */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #fff;
+}
+
+/* Border Color */ 
+table, 
+.mce-item-table,
+ th,  
+ .mce-item-table th, 
+td,
+.mce-item-table caption,
+.mce-item-table td,
+tbody tr:last-child th, 
+tbody tr:last-child td {
+ 	border-color: #2f2f2f; 
+ }
+
+/* Headline Text Color */ 
+
+.drop-cap:first-letter {
+	color: #fff;
+}
+
+.wp-block-button .wp-block-button__link,
+.wp-block-button .more-link,
+.wp-block-button .button,
+.is-style-fill.wp-block-button .wp-block-button__link,
+.is-style-fill.wp-block-button .wp-block-button__link,
+.is-style-fill.wp-block-button .more-link,
+.is-style-fill.wp-block-button .more-link,
+.is-style-fill.wp-block-button .button,
+.is-style-fill.wp-block-button .button {
+	background-color: #ffbf00;
+	color: #fff;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link:hover,
+.is-style-fill.wp-block-button .wp-block-button__link:focus,
+.is-style-fill.wp-block-button .more-link:hover,
+.is-style-fill.wp-block-button .more-link:focus,
+.is-style-fill.wp-block-button .button:hover,
+.is-style-fill.wp-block-button .button:focus {
+	background-color: #fff;
+	color: #000;
+	border-color: #e6e6e6;
+}
+
+.is-style-outline.wp-block-button .wp-block-button__link,
+.is-style-outline.wp-block-button .more-link,
+.is-style-outline.wp-block-button .button {
+	border-color: #ffbf00;
+	background-color: transparent;
+	color: #fff;
+}
+
+.is-style-outline.wp-block-button .wp-block-button__link:hover,
+.is-style-outline.wp-block-button .wp-block-button__link:focus,
+.is-style-outline.wp-block-button .more-link:hover,
+.is-style-outline.wp-block-button .more-link:focus,
+.is-style-outline.wp-block-button .button:hover,
+.is-style-outline.wp-block-button .button:focus {
+	background-color: #ffbf00;
+	color: #fff;
+}
+
+blockquote {
+	color: #ffffff;
+}
